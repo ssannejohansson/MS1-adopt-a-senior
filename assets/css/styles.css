@@ -4,3 +4,12 @@
     padding-top: 4rem;
     margin-bottom: 2rem;
 }
+
+
+#navbar {
+    background-color:#e0d5d2;
+}
+
+#navbar a {
+    color: #50443a;
+}
