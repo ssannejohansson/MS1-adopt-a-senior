@@ -1,5 +1,15 @@
 /* Global styles */
 
+/* CSS Variables */
+:root {
+    --primary-color: #50443a; /* dark brown */
+    --secondary-color: #e0d5d2; /* light brown */
+    --highlight-color: #928177; /* middle brown */
+    --second-highlight-color: #a3a4a2; /* grey/blue */
+    --accent-color: #d98e37; /* gold */ 
+
+}
+
 .section {
     padding-top: 4rem;
     margin-bottom: 2rem;
@@ -7,9 +17,32 @@
 
 
 #navbar {
-    background-color:#e0d5d2;
+    background-color: var(--secondary-color);
 }
 
 #navbar a {
-    color: #50443a;
+    color: var(--primary-color);
 }
+
+#hero {
+    height: 500px;
+    width: 100%; 
+    background: url("../images/krystian-tambur-FT9SsFEXqF4-unsplash.jpg") no-repeat 85% 100%/cover;
+}
+
+
+
+
+/* Media queries */
+
+/* Media query: tablet and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    #hero {
+        height: 600px;
+        width: 100%; 
+        background-position: center center;
+        background-size: cover;
+        
+    }
+}
+
