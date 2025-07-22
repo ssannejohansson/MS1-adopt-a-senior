@@ -40,9 +40,8 @@
     #hero {
         height: 600px;
         width: 100%; 
-        background-position: center center;
-        background-size: cover;
-        
+        background-position: 100% 40%;
+  
     }
 }
 
