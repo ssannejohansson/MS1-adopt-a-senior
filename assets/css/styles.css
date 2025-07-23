@@ -62,6 +62,65 @@ h1, h2 {
 }
 
 
+/* Adopt */
+.divider-top {
+    padding-top: 100px; 
+    position: relative; 
+}
+
+.divider-bottom {
+
+    position: relative; 
+}
+#adopt {
+    background-color: var(--highlight-color);
+    min-height: 300px;
+}
+
+/* Shape divider  */
+.custom-shape-divider-bottom-1753259828 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1753259828 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-bottom-1753259828 .shape-fill {
+    fill: #928177;
+}
+
+.custom-shape-divider-bottom-1753261175 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1753261175 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-bottom-1753261175 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
 /* Media queries */
 
 /* Media query: tablet and larger (768px and up) */
