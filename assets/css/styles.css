@@ -64,20 +64,19 @@ h1, h2 {
 
 /* Adopt */
 .divider-top {
-    padding-top: 100px; 
+    padding-top: 150px; 
     position: relative; 
 }
 
 .divider-bottom {
-
     position: relative; 
 }
 #adopt {
-    background-color: var(--highlight-color);
-    min-height: 300px;
+    background-color: var(--second-highlight-color);
+    min-height: 800px;
 }
 
-/* Shape divider  */
+/* Shape dividers */
 .custom-shape-divider-bottom-1753259828 {
     position: absolute;
     bottom: 0;
@@ -95,7 +94,7 @@ h1, h2 {
 }
 
 .custom-shape-divider-bottom-1753259828 .shape-fill {
-    fill: #928177;
+    fill: #a3a4a2;
 }
 
 .custom-shape-divider-bottom-1753261175 {
@@ -117,9 +116,6 @@ h1, h2 {
 .custom-shape-divider-bottom-1753261175 .shape-fill {
     fill: #FFFFFF;
 }
-
-
-
 
 /* Media queries */
 
