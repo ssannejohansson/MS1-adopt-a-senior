@@ -20,6 +20,9 @@ body {
     font-family: var(--primary-font);
 }
 
+h1, h2 {
+    font-family: var(--secondary-font);
+}
 .section {
     padding-top: 4rem;
     margin-bottom: 2rem;
@@ -28,7 +31,7 @@ body {
 /* Navbar */ 
 #navbar {
     background-color: var(--secondary-color);
-    font-family: var(--secondary-font); 
+    font-family: var(--primary-font); 
 }
 
 
