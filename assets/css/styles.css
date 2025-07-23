@@ -1,11 +1,11 @@
 /* Font import */ 
-@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 /* CSS Variables */
 :root {
-    --primary-font: "Poppins", sans-serif; 
-    --secondary-font: "Petit Formal Script", cursive; 
+    --primary-font: "Poppins", system-ui; 
+    --secondary-font: "Aboreto", cursive; 
     --primary-color: #50443a; /* dark brown */
     --secondary-color: #e0d5d2; /* light brown */
     --highlight-color: #928177; /* middle brown */
@@ -18,6 +18,7 @@
 
 body {
     font-family: var(--primary-font);
+    font-weight: 300;
 }
 
 h1, h2 {
@@ -31,7 +32,7 @@ h1, h2 {
 /* Navbar */ 
 #navbar {
     background-color: var(--secondary-color);
-    font-family: var(--primary-font); 
+    font-family: var(--secondary-font); 
 }
 
 
@@ -62,7 +63,23 @@ h1, h2 {
 }
 
 
-/* Adopt */
+/* Adoption */
+
+#adopt {
+    background-color: var(--second-highlight-color);
+    min-height: 900px;
+}
+
+
+#adopt h4, #adopt p {
+    color: white;
+    text-shadow: 0px 1px 10px rgba(49,42,37,1);
+}
+
+
+
+/* Shape dividers */
+
 .divider-top {
     padding-top: 150px; 
     position: relative; 
@@ -71,12 +88,7 @@ h1, h2 {
 .divider-bottom {
     position: relative; 
 }
-#adopt {
-    background-color: var(--second-highlight-color);
-    min-height: 800px;
-}
 
-/* Shape dividers */
 .custom-shape-divider-bottom-1753259828 {
     position: absolute;
     bottom: 0;
@@ -133,7 +145,7 @@ h1, h2 {
 @media screen and (min-width: 992px) {
         /* Navbar */
     #navbar a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     
