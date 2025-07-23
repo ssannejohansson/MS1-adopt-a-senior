@@ -21,7 +21,7 @@ body {
     font-weight: 300;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color)
 }
@@ -35,7 +35,6 @@ h1, h2 {
     background-color: var(--secondary-color);
     font-family: var(--secondary-font); 
 }
-
 
 #navbar a {
     color: var(--primary-color);
@@ -80,9 +79,18 @@ h1, h2 {
     text-shadow: 0px 1px 10px rgba(49,42,37,1);
 }
 
+/* Footer */
 
+/* Contact */ 
+#footer strong { 
+    font-weight: 600;
+    color: var(--primary-color)
+}
 
-
+#support i {
+    font-size: 3rem; 
+    color: var(--primary-color)
+}
 
 
 /* Shape dividers */
@@ -154,6 +162,10 @@ h1, h2 {
     #navbar a {
         font-size: 1.5rem;
     }
+
+    .nav-item {
+    margin: 0px 20px; 
+}
 
     
 }
