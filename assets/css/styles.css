@@ -23,6 +23,7 @@ body {
 
 h1, h2 {
     font-family: var(--secondary-font);
+    color: var(--primary-color)
 }
 .section {
     padding-top: 4rem;
@@ -67,14 +68,20 @@ h1, h2 {
 
 #adopt {
     background-color: var(--second-highlight-color);
-    min-height: 900px;
+    min-height: 850px;
 }
 
-
-#adopt h4, #adopt p {
+.carousel-caption {
+    bottom: 0px;
+    left: 0px; 
+    height: 20%;
+    width: 100%;
     color: white;
     text-shadow: 0px 1px 10px rgba(49,42,37,1);
 }
+
+
+
 
 
 
