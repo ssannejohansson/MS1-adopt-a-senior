@@ -25,9 +25,18 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color)
 }
+
+strong {
+    font-weight: 600;
+    color: var(--primary-color)
+}
 .section {
     padding-top: 4rem;
     margin-bottom: 2rem;
+}
+
+.round {
+    border-radius: 50%; 
 }
 
 /* Navbar */ 
@@ -48,6 +57,12 @@ h1, h2, h3 {
     background: url("../images/krystian-tambur-FT9SsFEXqF4-unsplash.jpg") no-repeat 85% 100%/cover;
 }
 
+#hero-adopt {
+    height: 500px;
+    width: 100%;
+    background: url("../images/adopt-rehome.jpg") no-repeat top center / cover;
+}
+
 
 /* Main */
 
@@ -63,7 +78,7 @@ h1, h2, h3 {
 }
 
 
-/* Adoption */
+/* Adoption - Homepage */
 
 #adopt {
     background-color: var(--second-highlight-color);
@@ -79,13 +94,18 @@ h1, h2, h3 {
     text-shadow: 0px 1px 10px rgba(49,42,37,1);
 }
 
+/* Adoption & Rehoming - Adopt page */
+#adopt-ready {
+    background-color: var(--second-highlight-color);
+    min-height: 850px;
+}
+
+
+
+
 /* Footer */
 
 /* Contact */ 
-#footer strong { 
-    font-weight: 600;
-    color: var(--primary-color)
-}
 
 #footer a {
     text-decoration: none;
@@ -158,6 +178,10 @@ h1, h2, h3 {
         height: 600px;
         width: 100%; 
         background-position: 100% 40%;
+    }
+
+        #hero-adopt {
+        height: 600px;
     }
 }
 
