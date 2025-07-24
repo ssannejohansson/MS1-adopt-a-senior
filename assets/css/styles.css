@@ -148,14 +148,21 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 /* Contact */ 
 
-#footer a {
-    text-decoration: none;
-    color: var(--primary-color)
+#footer #form-link {
+    text-decoration: underline;
+    color: var(--primary-color);
+    
 }
 
 #support i {
     font-size: 1rem; 
     color: var(--primary-color)
+}
+
+#footer .social-links i {
+    font-size: 2rem;
+    color: var(--highlight-color);
+
 }
 
 
