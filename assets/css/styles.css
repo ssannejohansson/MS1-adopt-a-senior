@@ -88,6 +88,11 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
     padding: 30px;
 }
 
+/* Care */
+#care {
+    min-height: 500px;
+}
+
 
 /* Adoption - Homepage */
 
@@ -163,6 +168,15 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 /* Contact */ 
 
+#footer {
+    background-color: var(--secondary-color);
+    position: relative;
+}
+
+
+#footer h2 {
+    padding-top: 50px; 
+}
 #footer #form-link {
     text-decoration: underline;
     color: var(--primary-color);
@@ -176,13 +190,14 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 #footer .social-links i {
     font-size: 2rem;
-    color: var(--highlight-color);
+    color: var(--primary-color);
 
 }
 
 
 /* Shape dividers */
 
+/* Greyblue divider */
 .divider-top {
     padding-top: 150px; 
     position: relative; 
@@ -212,6 +227,7 @@ input[type='checkbox']:checked + .card-container .card-flip {
     fill: #a3a4a2;
 }
 
+/* White divider */
 .custom-shape-divider-bottom-1753261175 {
     position: absolute;
     bottom: 0;
@@ -229,6 +245,27 @@ input[type='checkbox']:checked + .card-container .card-flip {
 }
 
 .custom-shape-divider-bottom-1753261175 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Footer divider */
+.custom-shape-divider-top-1753424451 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1753424451 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1753424451 .shape-fill {
     fill: #FFFFFF;
 }
 
