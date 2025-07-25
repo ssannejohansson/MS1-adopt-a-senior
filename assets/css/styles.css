@@ -85,7 +85,6 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
 }
 
 
-
 #about .circle-background {
     background-color: var(--secondary-color);
     border-radius: 50%; 
@@ -98,8 +97,8 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
 
 
 
-/* Care */
-#care {
+/* Preparation  */
+#preparation {
     min-height: 500px;
 }
 
@@ -120,7 +119,8 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
     text-shadow: 0px 1px 10px rgba(49,42,37,1);
 }
 
-/* Adoption & Rehoming - Adopt page */
+/* Adopt page */
+/* Adoption & Rehopming section */
 #adopt-ready {
     background-color: var(--second-highlight-color);
     min-height: 850px;
@@ -169,6 +169,14 @@ input[type='checkbox']:checked + .card-container .card-flip {
   transform: rotateY(180deg);
 }
 
+/* Pro tips section */
+#pro-tips {
+    min-height: 500px;
+}
+
+
+
+
 /* Contact page */
 
 
@@ -207,7 +215,7 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 /* Shape dividers */
 .divider-top {
-    padding-top: 80px; 
+    padding-top: 100px; 
     position: relative; 
 }
 
