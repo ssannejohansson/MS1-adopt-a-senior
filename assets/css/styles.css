@@ -35,6 +35,9 @@ strong {
     margin-bottom: 2rem;
 }
 
+.form-check-input:checked {
+filter: invert(59%) sepia(81%) saturate(395%) hue-rotate(350deg) brightness(88%) contrast(92%);;
+}
 .custom-btn {
     background-color: var(--accent-color);
     color: #110E0C;
