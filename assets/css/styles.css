@@ -60,7 +60,7 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
     color: var(--primary-color);
 }
 
-/* Header */ 
+/* Headers */ 
 
 #hero {
     height: 500px;
@@ -79,14 +79,24 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
 
 /* Our mission */ 
 
-.card {
+#about .card {
     border: none; 
+    min-width: 300px;
 }
-.circle-background {
+
+
+
+#about .circle-background {
     background-color: var(--secondary-color);
     border-radius: 50%; 
     padding: 30px;
 }
+
+#about .card-body {
+    height: 300px;
+}
+
+
 
 /* Care */
 #care {
@@ -98,7 +108,7 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
 
 #adopt {
     background-color: var(--second-highlight-color);
-    min-height: 850px;
+    min-height: 760px;
 }
 
 .carousel-caption {
@@ -196,10 +206,8 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 
 /* Shape dividers */
-
-/* Greyblue divider */
 .divider-top {
-    padding-top: 150px; 
+    padding-top: 80px; 
     position: relative; 
 }
 
@@ -207,6 +215,7 @@ input[type='checkbox']:checked + .card-container .card-flip {
     position: relative; 
 }
 
+/* Greyblue divider */
 .custom-shape-divider-bottom-1753259828 {
     position: absolute;
     bottom: 0;
@@ -283,6 +292,10 @@ input[type='checkbox']:checked + .card-container .card-flip {
         #hero-adopt {
         height: 600px;
     }
+
+    #about .card-body {
+    min-height: 200px;
+}
 }
 
 /* Media query: laptop and larger (992px and up) */
@@ -294,6 +307,10 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
     .nav-item {
     margin: 0px 20px; 
+}
+
+ #about .card-body {
+    min-height: 25px;
 }
 
     
