@@ -35,9 +35,7 @@ strong {
     margin-bottom: 2rem;
 }
 
-.form-check-input:checked {
-filter: invert(59%) sepia(81%) saturate(395%) hue-rotate(350deg) brightness(88%) contrast(92%);;
-}
+
 .custom-btn {
     background-color: var(--accent-color);
     color: #110E0C;
@@ -182,6 +180,24 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 
 /* Contact page */
+#contact-us {
+    color: var(--primary-color)
+}
+
+#contact-us input, #contact-us textarea {
+    border: 1px solid #50443a;
+}
+
+#contact-us input:focus, #contact-us textarea:focus{
+    border: 2px solid #50443a;
+    outline: none !important;
+}
+
+/* Make radio buttons accent-color */ 
+.form-check-input:checked {
+filter: invert(59%) sepia(81%) saturate(395%) hue-rotate(350deg) brightness(88%) contrast(92%);;
+}
+
 
 
 
