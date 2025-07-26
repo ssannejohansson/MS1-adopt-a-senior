@@ -78,6 +78,7 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
 }
 
 
+
 /* Main */
 
 /* Our mission */ 
@@ -181,6 +182,27 @@ input[type='checkbox']:checked + .card-container .card-flip {
 
 
 /* Contact page */
+
+
+
+
+/*Success page */
+#success {
+    min-height: 500px; 
+}
+
+/* Thank you page */
+
+.thankyou{
+width: 500px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  --_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+  -webkit-mask-box-image: var(--_m);
+             mask-border: var(--_m);
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+
+}
 
 
 
