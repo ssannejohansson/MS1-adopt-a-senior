@@ -150,15 +150,12 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 /* Adoption & Rehopming section */
 #adopt-ready {
     background-color: var(--second-highlight-color);
-    min-height: 850px;
+    height: 100%;
+    padding-bottom: 140px; 
 }
 
-/* Visit https://nicolaskadis.info/posts/pure-css-flip-cards-using-bootstrap-4-and-css-grid-no-js for an explanation */
+/* Flip cards by Nicolas Kadis */
 
-/* for demo purposes */
-.card {
-  margin: 10px 10px;
-}
 
 input[type='checkbox'] {
   display: none;
@@ -168,6 +165,16 @@ input[type='checkbox'] {
 .card-container {
   display: grid;
   perspective: 700px;
+}
+
+.card {
+border-radius: 20px; 
+padding: 10px; 
+color: var(--primary-color)
+}
+
+.card-img-top {
+    border-radius: 20px; 
 }
 
 .card-flip {
@@ -185,6 +192,8 @@ input[type='checkbox'] {
 
 .front {
   grid-area: frontAndBack;
+  background-color: transparent;
+  border: none;
 }
 
 .back {
@@ -195,6 +204,7 @@ input[type='checkbox'] {
 input[type='checkbox']:checked + .card-container .card-flip {
   transform: rotateY(180deg);
 }
+
 
 /* Pro tips section */
 #pro-tips {
@@ -378,6 +388,8 @@ width: 500px;
     #about .card-body {
     min-height: 200px;
 }
+
+
 }
 
 /* Media query: laptop and larger (992px and up) */
@@ -403,5 +415,6 @@ width: 500px;
     color: var(--secondary-color);
 }
     
+
 }
 
