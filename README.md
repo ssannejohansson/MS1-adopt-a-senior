@@ -220,8 +220,8 @@ Each device tested the site using the following browsers:
 | Bug | How I solved it |
 | ----------- | ----------- |
 | On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared? section". | |
-|The About-link in the navbar does not work from other pages than Home Page.| |
-| On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Text |
+| The About-link in the navbar does not work from other pages than Home Page.| Add index.html before #about to make it direct to index.html and then the section |
+| On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Add img-fluid bootstrap class to image to make it responsive. |
 
 
 ## Credits

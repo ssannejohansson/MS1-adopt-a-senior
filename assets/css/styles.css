@@ -159,6 +159,7 @@ strong {
     background-color: var(--second-highlight-color);
     height: 100%;
     padding-bottom: 160px;
+    margin-bottom: 1px; 
 }
 
 .carousel-caption {
