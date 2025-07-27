@@ -411,8 +411,8 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 /* Media queries */
 
-/* Media query: large phones (425px and up) */
-@media screen and (min-width: 425px) {
+/* Media query: large phones (400px and up) */
+@media screen and (min-width: 400px) {
 /* Hero image */
 .hero-text {
      top: 70%;
@@ -470,6 +470,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
     .hero-text {
         top: 40%;
         left: 8%;
+        font-size: 30px; 
 
     }
 
