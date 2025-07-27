@@ -55,6 +55,7 @@ strong {
 
 .custom-btn:hover {
     background-color: #c68030;
+    color: #110E0C;
 }
 
 .custom-btn-hero {
@@ -410,8 +411,18 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 /* Media queries */
 
+/* Media query: large phones (425px and up) */
+@media screen and (min-width: 425px) {
+/* Hero image */
+.hero-text {
+     top: 70%;
+     font-size: 24px;
+}
+}
+
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    
 
     /* Hero image */
     #hero {
@@ -421,11 +432,8 @@ input[type='checkbox']:checked+.card-container .card-flip {
     }
 
     .hero-text {
-        position: relative;
         top: 40%;
         left: 3%;
-        font-size: 24px;
-        color: var(--secondary-color);
     }
 
     #hero-adopt {
@@ -460,11 +468,9 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
     /* Hero image */
     .hero-text {
-        position: relative;
         top: 40%;
         left: 8%;
-        font-size: 24px;
-        color: var(--secondary-color);
+
     }
 
 
