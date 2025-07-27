@@ -1,16 +1,21 @@
-/* Font import */ 
+/* Font import */
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 /* CSS Variables */
 :root {
-    --primary-font: "Poppins", system-ui; 
-    --secondary-font: "Aboreto", cursive; 
-    --primary-color: #50443a; /* dark brown */
-    --secondary-color: #e0d5d2; /* light brown */
-    --highlight-color: #928177; /* middle brown */
-    --second-highlight-color: #a3a4a2; /* grey/blue */
-    --accent-color: #d98e37; /* gold */ 
+    --primary-font: "Poppins", system-ui;
+    --secondary-font: "Aboreto", cursive;
+    --primary-color: #50443a;
+    /* dark brown */
+    --secondary-color: #e0d5d2;
+    /* light brown */
+    --highlight-color: #928177;
+    /* middle brown */
+    --second-highlight-color: #a3a4a2;
+    /* grey/blue */
+    --accent-color: #d98e37;
+    /* gold */
 
 }
 
@@ -21,7 +26,9 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color)
 }
@@ -30,6 +37,7 @@ strong {
     font-weight: 600;
     color: var(--primary-color)
 }
+
 .section {
     padding-top: 4rem;
     margin-bottom: 2rem;
@@ -39,9 +47,9 @@ strong {
 .custom-btn {
     background-color: var(--accent-color);
     color: #110E0C;
-box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
--webkit-box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
--moz-box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
+    box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.34);
+    -webkit-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.34);
+    -moz-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.34);
 
 }
 
@@ -50,11 +58,11 @@ box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.34);
 }
 
 .custom-btn-hero {
-        background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
--webkit-box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.582);
--moz-box-shadow: 1px 1px 11px -2px rgba(80,68,58,0.582);
+    box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
+    -webkit-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
+    -moz-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 
 }
 
@@ -63,10 +71,10 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 }
 
 
-/* Navbar */ 
+/* Navbar */
 #navbar {
     background-color: var(--secondary-color);
-    font-family: var(--secondary-font); 
+    font-family: var(--secondary-font);
 }
 
 #navbar a {
@@ -75,23 +83,23 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 
 #navbar a:hover {
     color: #2d251f;
-    font-weight: bold; 
+    font-weight: bold;
     transition: 0.2s ease-in;
 }
 
 
 
 #navbar .active {
-    font-weight: bold; 
+    font-weight: bold;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: var(--primary-color);
 }
 
-/* Headers */ 
+/* Headers */
 
 #hero {
     height: 500px;
-    width: 100%; 
+    width: 100%;
     background: url("../images/krystian-tambur-FT9SsFEXqF4-unsplash.jpg") no-repeat 85% 100%/cover;
 }
 
@@ -105,7 +113,7 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 }
 
 .hero-text p {
-       text-shadow: 0px 1px 10px rgb(13, 11, 10);
+    text-shadow: 0px 1px 10px rgb(13, 11, 10);
 }
 
 #hero-adopt {
@@ -118,15 +126,15 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 
 /* Main */
 
-/* Our mission */ 
+/* Our mission */
 
 #about .card {
-    border: none; 
+    border: none;
 }
 
 #about .circle-background {
     background-color: var(--secondary-color);
-    border-radius: 50%; 
+    border-radius: 50%;
     padding: 30px;
 }
 
@@ -138,7 +146,7 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 
 /* Preparation  */
 #preparation {
-        height: 100%;
+    height: 100%;
 
 }
 
@@ -148,17 +156,17 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 #adopt {
     padding-top: 20px;
     background-color: var(--second-highlight-color);
-        height: 100%;
-    padding-bottom: 160px; 
+    height: 100%;
+    padding-bottom: 160px;
 }
 
 .carousel-caption {
     bottom: 0px;
-    left: 0px; 
+    left: 0px;
     height: 20%;
     width: 100%;
     color: white;
-    text-shadow: 0px 1px 10px rgba(49,42,37,1);
+    text-shadow: 0px 1px 10px rgba(49, 42, 37, 1);
 }
 
 /* Adopt page */
@@ -166,58 +174,58 @@ box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
 #adopt-ready {
     background-color: var(--second-highlight-color);
     height: 100%;
-    padding-bottom: 140px; 
+    padding-bottom: 140px;
 }
 
 /* Flip cards by Nicolas Kadis */
 
 
 input[type='checkbox'] {
-  display: none;
+    display: none;
 }
 
 /* Flip Cards CSS */
 .card-container {
-  display: grid;
-  perspective: 700px;
+    display: grid;
+    perspective: 700px;
 }
 
 .card {
-border-radius: 20px; 
-padding: 10px; 
-color: var(--primary-color)
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--primary-color)
 }
 
 .card-img-top {
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 .card-flip {
-  display: grid;
-  grid-template: 1fr / 1fr;
-  grid-template-areas: "frontAndBack";
-  transform-style: preserve-3d;
-  transition: all 0.7s ease;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
 }
 
 .card-flip div {
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
 .front {
-  grid-area: frontAndBack;
-  background-color: transparent;
-  border: none;
+    grid-area: frontAndBack;
+    background-color: transparent;
+    border: none;
 }
 
 .back {
-  grid-area: frontAndBack;
-  transform: rotateY(-180deg);
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
 }
 
-input[type='checkbox']:checked + .card-container .card-flip {
-  transform: rotateY(180deg);
+input[type='checkbox']:checked+.card-container .card-flip {
+    transform: rotateY(180deg);
 }
 
 
@@ -234,18 +242,21 @@ input[type='checkbox']:checked + .card-container .card-flip {
     color: var(--primary-color)
 }
 
-#contact-us input, #contact-us textarea {
+#contact-us input,
+#contact-us textarea {
     border: 1px solid #50443a;
 }
 
-#contact-us input:focus, #contact-us textarea:focus{
+#contact-us input:focus,
+#contact-us textarea:focus {
     border: 2px solid #50443a;
     outline: none !important;
 }
 
-/* Make radio buttons accent-color */ 
+/* Make radio buttons accent-color */
 .form-check-input:checked {
-filter: invert(59%) sepia(81%) saturate(395%) hue-rotate(350deg) brightness(88%) contrast(92%);;
+    filter: invert(59%) sepia(81%) saturate(395%) hue-rotate(350deg) brightness(88%) contrast(92%);
+    ;
 }
 
 
@@ -254,19 +265,19 @@ filter: invert(59%) sepia(81%) saturate(395%) hue-rotate(350deg) brightness(88%)
 
 /*Success page */
 #success {
-    min-height: 500px; 
+    min-height: 500px;
 }
 
 /* Thank you page */
 
-.thankyou{
-width: 500px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  --_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
-  -webkit-mask-box-image: var(--_m);
-             mask-border: var(--_m);
-  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+.thankyou {
+    width: 500px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    --_m: radial-gradient(#000 69%, #0000 70%) 84.5%/50%;
+    -webkit-mask-box-image: var(--_m);
+    mask-border: var(--_m);
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 
 }
 
@@ -275,7 +286,7 @@ width: 500px;
 
 /* Footer */
 
-/* Contact */ 
+/* Contact */
 
 #footer {
     background-color: var(--secondary-color);
@@ -284,22 +295,23 @@ width: 500px;
 
 
 #footer h2 {
-    padding-top: 90px; 
+    padding-top: 90px;
 }
+
 #footer #form-link {
     text-decoration: underline;
     color: var(--primary-color);
-    
+
 }
 
 #footer #form-link:hover {
     color: var(--accent-color);
-    font-weight: 400; 
+    font-weight: 400;
 
 }
 
 #support i {
-    font-size: 1rem; 
+    font-size: 1rem;
     color: var(--primary-color)
 }
 
@@ -309,7 +321,7 @@ width: 500px;
 }
 
 #footer .social-links i:hover {
-    font-size: 2.3rem; 
+    font-size: 2.3rem;
     color: var(--accent-color);
     transition: 0.2s ease-in-out;
 }
@@ -319,12 +331,12 @@ width: 500px;
 
 /* Shape dividers */
 .divider-top {
-    padding-top: 100px; 
-    position: relative; 
+    padding-top: 100px;
+    position: relative;
 }
 
 .divider-bottom {
-    position: relative; 
+    position: relative;
 }
 
 /* Greyblue divider */
@@ -394,60 +406,62 @@ width: 500px;
 
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Hero image */
     #hero {
         height: 600px;
-        width: 100%; 
+        width: 100%;
         background-position: 100% 40%;
     }
 
     .hero-text {
-    position: relative;
-    top: 40%;
-    left: 3%; 
-    font-size: 24px;
-    color: var(--secondary-color);
-}
+        position: relative;
+        top: 40%;
+        left: 3%;
+        font-size: 24px;
+        color: var(--secondary-color);
+    }
 
-        #hero-adopt {
+    #hero-adopt {
         height: 600px;
     }
 
     #about .card-text {
-    min-height: 90px;
-}
+        min-height: 90px;
+    }
 
-/* Footer */ 
-#footer h2 {
-    padding-top: 60px; 
-}
+    /* Footer */
+    #footer h2 {
+        padding-top: 60px;
+    }
 }
 
 /* Media query: laptop and larger (992px and up) */
 @media screen and (min-width: 992px) {
-        /* Navbar */
+
+    /* Navbar */
     #navbar a {
         font-size: 1.5rem;
     }
 
     .nav-item {
-    margin: 0px 20px; 
-}
+        margin: 0px 20px;
+    }
 
- #about .card-text {
-    min-height: 100px;
-}
-/* Hero image */
+    #about .card-text {
+        min-height: 100px;
+    }
+
+    /* Hero image */
     .hero-text {
-    position: relative;
-    top: 40%;
-    left: 8%; 
-    font-size: 24px;
-    color: var(--secondary-color);
+        position: relative;
+        top: 40%;
+        left: 8%;
+        font-size: 24px;
+        color: var(--secondary-color);
+    }
+
+
+
+
 }
-
-
-    
-
-}
-
