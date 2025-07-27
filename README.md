@@ -64,8 +64,8 @@ The goal was to make a visually appealing yet clean website that meets the users
 ### Colour Scheme
 
 For color scheme, I took inspiration from the hero-image on the front page to generate a scheme that looked good.
-
-<img src="assets/images/readme/colorscheme.svg" width="400" height="300">
+<img src="assets/images/hero-index.jpg" width="400" height="280">
+<img src="assets/images/readme/colorscheme.svg" width="400" height="280">
 
 ### Typography
 
