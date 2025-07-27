@@ -34,19 +34,19 @@ The goal was to make a visually appealing yet clean website that meets the users
 
 ##### Returning Visitor Goals
 - I want to see if there is new cats available for adoption 
-- I need guidance on how to take care of my newly adopted senior
-- I want to read heartwarming success stories to keep my motivation since I'm having a hard time with my adoptee. 
+- I need guidance on how to take care of my new adoptee
+- I want to read heartwarming success stories to keep my motivation since I'm having a hard time 
 
 ##### Frequent Visitor Goals
 - I want to share my success story. 
-- I want to support your shelter. 
+- I want to support the shelter. 
 
 
 
 #### Moscow Prioritization
 ##### Must Have
 - A responsive website that looks and functions well on all screensizes 
-- A Navigation that is obvious to the user (Must Have)
+- A Navigation that is obvious to the user 
 - Clean, focused design that clearly communicates our mission without unneccessary clutter
 - Search Engine Optimization (SEO) tailored that makes people who specifically looking for senior cats find us 
 - A contact form with easy-to-select topics to make inquiries reach the right team-member 
@@ -144,9 +144,85 @@ HTML and CSS.
 
 ### Automated testing
 
+
 ### Manual testing
 
+#### Testing Client Goals
+| Moscow Prioritization | Goal | Status |
+| --- | ----------- | --- |
+| Must Have | A responsive website that looks and functions well on all screensizes | **Done**|
+| Must Have | A Navigation that is obvious to the user  | **Done** |
+| Must Have | Clean, focused design that clearly communicates our mission without unneccessary clutter | **Done** |
+| Must Have | Search Engine Optimization (SEO) tailored that makes people who specifically looking for senior cats find us | **Done** |
+| Must Have | A contact form with easy-to-select topics to make inquiries reach the right team-member | **Done** |
+| Should Have | Information on how to take care of elderly cats | **Done** |
+| Should Have | Information about preparation before adopting a cat | **Done** |
+| Could Have | Heartwarming success stories of rehomed cats | *Next version* |
+| Could Have | A newsletter | *Next version*  |
+
+#### Full testing
+Full testing was performed on the folliwing devices:
+- Laptop 
+    - MacBook Air M2 2022 13.6 inch screen
+- External Display
+    - Apple (fyll i)
+
+- Mobile Device
+    - Iphone 16 Pro Max
+
+Additional testing was done using Google Chromes inspection tool to test XS-Phone and Tablet. 
+
+Each device tested the site using the following browsers:
+- Google Chrome
+- Safari 
+- Firefox 
+
+
+| Page | Feature | Expected Outcome | Action | Pass / Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| All | **Nav links** | When clicked, the respective page or section will open and the active page will be bold | Clicked all navbar-links | hej | 
+| All | **Nav logo** | When clicked, home page will open | Clicked Logo Icon | hej | 
+| All | **Footer contact link** | When clicked, contact page will open | hej | hej |
+| All | **Footer social links** | When clicked, the respective social page will open in a new tab | hej | hej |
+| All | **Footer support us button** | When clicked, thank you page will open | hej | hej |
+| All | **Footer attributions** | When clicked, the respective attribution-page will open | hej | hej |
+<br>
+| Home | **Hero button** | When clicked, page will scroll down to carousel showing available cats | hej | hej |
+| Home | **Our Mission buttons** | When clicked, the respective section or page will open | hej | hej |
+|Home | **Left and right buttons in carousel** | When clicked, the images will scroll left or right | hej | hej |
+| Home | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
+| Home | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+<br>
+| Adoption | **Contact form Button** | Title | hej | hej |
+| Adoption | **Flip Cards** | Title | hej | hej |
+| Adoption | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
+| Adoption | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+<br>
+| Contact | **Inputs** | When clicked, all inputs will have a bold border to show that they are focused | hej | hej |
+| Contact | **Radio buttons** | When clicked, all radio buttons will work | hej | hej |
+| Contact | **Submit button** | When clicked, success page will open | hej | hej |
+| Contact | **Form Validation** | It's not possible to submit the contact form if inputs are blank or if a @ is missing in email-input | hej | hej |
+| Contact | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
+| Contact | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+<br>
+| Success | **Return to homepage** | When clicked, home page will open | hej | hej |
+| Success | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
+| Success | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+<br>
+| Thank You | **Return to homepage** | When clicked, home page will open | hej | hej |
+| Thank You | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
+| Thank You | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+
+
 ### Bugs
+
+#### Solved Bugs
+
+| Bug | How I solved it |
+| ----------- | ----------- |
+| On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared? section". | |
+|The About-link in the navbar does not work from other pages than Home Page.| |
+| On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Text |
 
 ## Credits
 
