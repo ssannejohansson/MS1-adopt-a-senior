@@ -219,7 +219,7 @@ Each device tested the site using the following browsers:
 
 | Bug | How I solved it |
 | ----------- | ----------- |
-| On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared? section". | Added a margin-bottom of 1px on the section to move the background-color of the section 1px up |
+| On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared? section". | Added a margin-bottom of 1px on the section to move the background-color of the section 1px up. This made the line move to the top, so I needed to add -1px margin-top too to fix that. |
 | The About-link in the navbar does not work from other pages than Home Page.| Add index.html before #about to make it direct to index.html and then the section |
 | On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Add img-fluid bootstrap class to image to make it responsive. |
 
