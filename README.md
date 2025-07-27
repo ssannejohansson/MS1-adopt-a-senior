@@ -44,7 +44,11 @@ HTML and CSS.
 
  [Github](https://github.com/) - To store the site online and deploy the website. 
 
+[Vecteezy](https://www.vecteezy.com/) - For logo.
 
+[Vecteezy Background Remover](https://www.vecteezy.com/background-removal) - To remove background on logo.
+
+[Favicon.io](https://favicon.io/favicon-converter/) - To create favicon. 
 
 [Google Fonts](https://fonts.google.com/) To import the fonts used on the website. 
 
@@ -66,9 +70,11 @@ HTML and CSS.
 
 ## Credits
 
-### Coed Used
+### Code Used
 
 ### Content
+
+[Logo](https://www.vecteezy.com/vector-art/65580867-cat-silhouette-art-illustration-with-white-backgroun) - Vecteezy.
 
 ### Media
 
