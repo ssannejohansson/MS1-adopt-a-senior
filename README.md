@@ -32,8 +32,23 @@ Table of contents
 ## Technologies Used
 
 ### Languages Used
+HTML and CSS. 
 
-### Frameworks, Libraries & Programs Used
+### Frameworks Used
+[Bootstrap](https://getbootstrap.com) - version 5.3 - CSS Framework. 
+
+### Programs Used
+ [Balsamiq](https://balsamiq.com/) - Used to create Wireframes. 
+
+ [Git](https://git-scm.com/) - For version conrol. 
+
+ [Github](https://github.com/) - To store the site online and deploy the website. 
+
+
+
+[Google Fonts](https://fonts.google.com/) To import the fonts used on the website. 
+
+[Font Awesome](https://fontawesome.com/) For icons used on the website. 
 
 ## Deployment & Local Development
 

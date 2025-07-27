@@ -326,6 +326,12 @@ input[type='checkbox']:checked+.card-container .card-flip {
     transition: 0.2s ease-in-out;
 }
 
+#footer em a {
+    font-size: 14px;
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
 
 
 
