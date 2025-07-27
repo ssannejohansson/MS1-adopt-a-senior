@@ -180,38 +180,37 @@ Each device tested the site using the following browsers:
 
 | Page | Feature | Expected Outcome | Action | Pass / Fail |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| All | **Nav links** | When clicked, the respective page or section will open and the active page will be bold | Clicked all navbar-links | hej | 
-| All | **Nav logo** | When clicked, home page will open | Clicked Logo Icon | hej | 
-| All | **Footer contact link** | When clicked, contact page will open | hej | hej |
-| All | **Footer social links** | When clicked, the respective social page will open in a new tab | hej | hej |
-| All | **Footer support us button** | When clicked, thank you page will open | hej | hej |
-| All | **Footer attributions** | When clicked, the respective attribution-page will open | hej | hej |
+| All | **Nav links** | When clicked, the respective page or section will open and the active page will be bold | Clicked all navbar-links | Pass | 
+| All | **Nav logo** | When clicked, home page will open | Clicked logo Icon | Pass | 
+| All | **Footer contact link** | When clicked, contact page will open | Clicked link | Pass |
+| All | **Footer social links** | When clicked, the respective social page will open in a new tab | Clicked links | Pass |
+| All | **Footer support us button** | When clicked, thank you page will open | Clicked link | Pass |
+| All | **Footer attributions** | When clicked, the respective attribution-page will open | Clicked links | Pass |
+| All | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
+
 <br>
-| Home | **Hero button** | When clicked, page will scroll down to carousel showing available cats | hej | hej |
-| Home | **Our Mission buttons** | When clicked, the respective section or page will open | hej | hej |
-|Home | **Left and right buttons in carousel** | When clicked, the images will scroll left or right | hej | hej |
-| Home | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
-| Home | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+| Home | **Hero button** | When clicked, page will scroll down to carousel showing available cats | Clicked button | Pass |
+| Home | **Our Mission buttons** | When clicked, the respective section or page will open | Clicked buttons | Pass |
+| Home | **Left and right buttons in carousel** | When clicked, the images will scroll left or right | Clicked the arrows | Pass |
+| Home | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
+
 <br>
-| Adoption | **Contact form Button** | Title | hej | hej |
-| Adoption | **Flip Cards** | Title | hej | hej |
-| Adoption | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
-| Adoption | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+| Adoption | **Contact form Button** | When clicked, the contact page will open | Clicked button | Pass |
+| Adoption | **Flip Cards** | When clicked, the cards will turn to show information about the cats | Clicked cards | Pass |
+| Adoption | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
+
 <br>
-| Contact | **Inputs** | When clicked, all inputs will have a bold border to show that they are focused | hej | hej |
-| Contact | **Radio buttons** | When clicked, all radio buttons will work | hej | hej |
-| Contact | **Submit button** | When clicked, success page will open | hej | hej |
-| Contact | **Form Validation** | It's not possible to submit the contact form if inputs are blank or if a @ is missing in email-input | hej | hej |
-| Contact | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
-| Contact | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+| Contact | **Inputs** | When clicked, all inputs will have a bold border to show that they are focused | Clicked inputs | Pass |
+| Contact | **Radio buttons** | When clicked, all radio buttons will work | Clicked radio buttons | Pass |
+| Contact | **Submit button** | When clicked, success page will open | Filled out form and clicked the button | Pass |
+| Contact | **Form Validation** | It's not possible to submit the contact form if inputs are blank or if a @ is missing in email-input | Filled out input by input to and clicked submit | Pass |
+| Contact | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
 <br>
-| Success | **Return to homepage** | When clicked, home page will open | hej | hej |
-| Success | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
-| Success | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+| Success | **Return to homepage** | When clicked, home page will open | Clicked button | Pass |
+| Success | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
 <br>
-| Thank You | **Return to homepage** | When clicked, home page will open | hej | hej |
-| Thank You | **Hovers** | When hovering, all buttons and links will be darker to show that they are focused | hej | hej |
-| Thank You | **Responsiveness** | Everything will look good on all devices and when resizing browser-window on desktop | hej | hej |
+| Thank You | **Return to homepage** | When clicked, home page will open | Clicked button | Pass |
+| Thank You | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused |Hovered over links and buttons | Pass |
 
 
 ### Bugs
@@ -223,6 +222,7 @@ Each device tested the site using the following browsers:
 | On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared? section". | |
 |The About-link in the navbar does not work from other pages than Home Page.| |
 | On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Text |
+
 
 ## Credits
 
