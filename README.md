@@ -156,7 +156,14 @@ HTML and CSS.
 
 ### Automated testing
 
+#### W3C Validator
+I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the HTML and CSS on all pages of the website. 
 
+- Home page - No errors or warnings. 
+- Adoption page - 
+- Contact page - 
+- Success page - 
+- Thank you page - 
 
 ### Manual testing
 

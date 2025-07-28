@@ -99,6 +99,11 @@ strong {
 .logo {
     margin-right: 10px;
 }
+
+.navbar-brand {
+    font-size: 22px; 
+}
+
 /* Headers */
 
 #hero {
@@ -163,7 +168,7 @@ strong {
     height: 100%;
     margin-top: -1px;
     padding-bottom: 170px;
-    margin-bottom: 1px; 
+    margin-bottom: 1px;
 }
 
 .carousel-caption {
@@ -418,25 +423,27 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 /* Media query: Small and medium phones (425px and smaller) */
 @media screen and (max-width: 424px) {
-/* Navbar */
-.navbar-brand {
-font-size: 14px;
-font-weight: bold;
-}
+
+    /* Navbar */
+    .navbar-brand {
+        font-size: 14px;
+        font-weight: bold;
+    }
 }
 
 /* Media query: large phones (400px and up) */
 @media screen and (min-width: 400px) {
-/* Hero image */
-.hero-text {
-     top: 70%;
-     font-size: 24px;
-}
+
+    /* Hero image */
+    .hero-text {
+        top: 70%;
+        font-size: 24px;
+    }
 }
 
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    
+
 
     /* Hero image */
     #hero {
@@ -476,6 +483,12 @@ font-weight: bold;
         margin: 0px 20px;
     }
 
+    .logo {
+    margin-right: 0px;
+}
+
+    /* About */
+
     #about .card-text {
         min-height: 100px;
     }
@@ -484,7 +497,7 @@ font-weight: bold;
     .hero-text {
         top: 40%;
         left: 8%;
-        font-size: 30px; 
+        font-size: 30px;
 
     }
 
