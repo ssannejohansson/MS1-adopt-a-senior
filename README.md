@@ -159,20 +159,49 @@ HTML and CSS.
 #### W3C Validator
 I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the HTML and CSS on all pages of the website. 
 
-- Home page - No errors or warnings. 
-- Adoption page - Error with the flip-card code. *Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error* 
-- Contact page - No errors or warnings. 
-- Success page - No errors or warnings.
-- Thank you page - No errors or warnings. 
-- CSS - No errors or warnings. 
+- **Home page** - No errors or warnings. 
+- **Adoption page** - Error with the flip-card code.
+<img src="assets/images/readme/error.png"> 
+(*Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error.*) 
+- **Contact page** - No errors or warnings. 
+- **Success page** - No errors or warnings.
+- **Thank you page** - No errors or warnings. 
+- **CSS** - No errors or warnings. 
 
 #### Lighthouse
-I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practises and SEO of the website. 
+I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practises and SEO of the website. I run the test for both desktop and mobile. 
 
+- **Home page** 
+    - Desktop
+    <img src="assets/images/readme/homepage-desktop.png">
+    - Mobile
+    <img src="assets/images/readme/homepage-mobile.png">
+- **Adoption page** 
+    - Desktop
+    <img src="assets/images/readme/adoption-desktop.png">
+    - Mobile
+    <img src="assets/images/readme/adoption-mobile.png">
+- **Contact page** 
+    - Desktop
+    <img src="assets/images/readme/contact-desktop.png">
+    - Mobile
+    <img src="assets/images/readme/contact-mobile.png">
+- **Success page** 
+    - Desktop
+    <img src="assets/images/readme/success-desktop.png">
+    - Mobile
+    <img src="assets/images/readme/success-mobile.png">
+- **Thank you page** 
+    - Desktop
+    <img src="assets/images/readme/thankyou-desktop.png">
+    - Mobile
+    <img src="assets/images/readme/thankyou-mobile.png">
 
+Overall, the accessibility, best practises and SEO results are great. 
 
+The orange performance numbers are mostly due to image-sizes even though I compressed them with TinyPNG. In future projects, I will look into other ways of compressing images to get a better performance. 
 
-#### WAVE
+The reason that the accessibility isn't perfect is mostly because of the color of the attributions in the footer. I choose to keep the color because i don't want the attributions to take focus from the other elements in the footer.  
 
 ### Manual testing
 
