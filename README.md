@@ -63,7 +63,7 @@ The goal was to make a visually appealing yet clean website that meets the users
 
 ### Colour Scheme
 
-For color scheme, I took inspiration from the hero-image on the front page to generate a scheme that looked good.
+For color scheme, I took inspiration from the hero-image on the front page to generate a scheme that looked good. For this, I used [Muzli Colors](https://colors.muz.li/).<br>
 <img src="assets/images/hero-index.jpg" width="400" height="280">
 <img src="assets/images/readme/colorscheme.svg" width="400" height="280">
 
@@ -81,7 +81,7 @@ For bodytext, I used [Poppins Light](https://fonts.google.com/specimen/Poppins?q
 
 ### Imagery
 
-For all imagery, everything from logos to images, I've choosen clean and simple looks to keep the website from feeling cluttered. 
+For all imagery, everything from logos to images, I've choosen clean and simple looks to keep the website from feeling cluttered. Please see the Technologies Used section for sources.
 
 All images are downloaded from [Unsplash](https://unsplash.com/). Please see the credits section for attributions. 
 
@@ -101,13 +101,28 @@ Wireframes are created using [Balsamiq](https://balsamiq.com/).
 #### Success / Thank you page
 <img src="assets/images/readme/Sucess.png">
 
-## Features
-
 ### General features on each page
+**Favicon** <br>
+The favicon is converted from the [Logo](https://www.vecteezy.com/vector-art/65580867-cat-silhouette-art-illustration-with-white-backgroun)  using [Favicon.io](https://favicon.io/favicon-converter/). 
+
+**Navbar** <br>
+The navbar is created from a [Bootstrap](https://getbootstrap.com) navbar that I later styled. For example, I moved the logo to the center instead of to the left to make it look consistent to the rest of the website. The navbar is fully responsive and I chose to position the links in the open nav to the left to follow the consistency of the logo and text. 
+<img src="assets/images/readme/nav-desktop.png">
+<img src="assets/images/readme/nav-mobiletablet.png">
+<img src="assets/images/readme/opennav.png">
+
+
+**Footer** <br>
+The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make it fully responsive. At desktop, it's a two-column-layout and from tablet to mobile it comes down to one column. 
+<img src="assets/images/readme/footer-desktop.png">
+<img src="assets/images/readme/footer-mobiletablet.png">
 
 ### Future Implentations
+- In the future, I will add a section at the adoption page dedicated for **success stories** due to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
 
-### Accessibility
+- In a later update I'll also be adding a newsletter. This will function through a "Sign up for our newsletter" button that will trigger a modal where you can sign up for the newsletter. The newsletter will include new cats at the shelter, previous adoptions, success stories and guidance.
+
+- Throughout the whole process of this site, I've had accessibility in mind. I've used semantic The Lighthouse report, see further down, is giving great scores but in the next update I will focus on making it even better. 
 
 ## Technologies Used
 
@@ -118,11 +133,11 @@ HTML and CSS.
 [Bootstrap](https://getbootstrap.com) - version 5.3 - CSS Framework. 
 
 ### Programs Used
- [Balsamiq](https://balsamiq.com/) - Used to create Wireframes. 
+[Balsamiq](https://balsamiq.com/) - Used to create Wireframes. 
 
- [Git](https://git-scm.com/) - For version conrol. 
+[Git](https://git-scm.com/) - For version conrol. 
 
- [Github](https://github.com/) - To store the site online and deploy the website. 
+[Github](https://github.com/) - To store the site online and deploy the website. 
 
 [Vecteezy](https://www.vecteezy.com/) - For logo.
 
@@ -147,10 +162,23 @@ HTML and CSS.
 [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website on all devices.
 
 ## Deployment & Local Development
-
 ### Deployment
+I've used GitHub Pages to deploy this site. To deploy a site on GitHub Pages you'll need to <br>
+1. Go to your project repository on GitHub.
+2. Click on **Settings** in the navigation. 
+3. Click on **Pages** in the left section. 
+4. Choose what branch to deploy at the **Source** dropdown. 
+5. Choose which folder you want to deploy.
+6. Click Save and wait a few minutes for the site to deploy. 
+7. When the site is deployed, you can find it under **Deployments** in the right section of your repository page. 
 
 ### Local Development 
+**How to Fork**
+
+To fork the repository, log in to your GitHub account, go to the repository of the project you want to fork [this one](https://github.com/ssannejohansson/MS1-adopt-a-senior.git) for this project, and click on the Fork button in the top right corner. 
+
+**How to Clone**
+To clone the repository, log in your GitHub accout, go to the repository of the project you want to clone [this one](https://github.com/ssannejohansson/MS1-adopt-a-senior.git) for this project, click on the **Code** button and select if you want to clone with HTTPS, SSH or GitHub CLI and copy the code. Open the **terminal** in your code editor and change directory to the location you want to use for the cloned directory and type *git clone* into the terminal and paste the link you copied. Press **enter**. 
 
 ## Testing
 
@@ -162,7 +190,7 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 - **Home page** - No errors or warnings. 
 - **Adoption page** - Error with the flip-card code.
 <img src="assets/images/readme/error.png"> 
-(*Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error.*) 
+*Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error.*
 - **Contact page** - No errors or warnings. 
 - **Success page** - No errors or warnings.
 - **Thank you page** - No errors or warnings. 
@@ -171,30 +199,30 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 #### Lighthouse
 I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practises and SEO of the website. I run the test for both desktop and mobile. 
 
-- **Home page** 
-    - Desktop
+- **Home page** <br>
+Desktop
     <img src="assets/images/readme/homepage-desktop.png">
-    - Mobile
+Mobile
     <img src="assets/images/readme/homepage-mobile.png">
-- **Adoption page** 
-    - Desktop
+- **Adoption page** <br>
+ Desktop
     <img src="assets/images/readme/adoption-desktop.png">
-    - Mobile
+Mobile
     <img src="assets/images/readme/adoption-mobile.png">
-- **Contact page** 
-    - Desktop
+- **Contact page** <br>
+Desktop
     <img src="assets/images/readme/contact-desktop.png">
-    - Mobile
+Mobile
     <img src="assets/images/readme/contact-mobile.png">
-- **Success page** 
-    - Desktop
+- **Success page** <br>
+Desktop
     <img src="assets/images/readme/success-desktop.png">
-    - Mobile
+Mobile
     <img src="assets/images/readme/success-mobile.png">
-- **Thank you page** 
-    - Desktop
+- **Thank you page** <br>
+Desktop
     <img src="assets/images/readme/thankyou-desktop.png">
-    - Mobile
+Mobile
     <img src="assets/images/readme/thankyou-mobile.png">
 
 Overall, the accessibility, best practises and SEO results are great. 
@@ -221,12 +249,12 @@ The reason that the accessibility isn't perfect is mostly because of the color o
 #### Full testing
 Full testing was performed on the folliwing devices:
 - Laptop 
-    - MacBook Air M2 2022 13.6 inch screen
+    - MacBook Air M2 2022, 13.6 inch screen
 - External Display
-    - Apple (fyll i)
+    - Apple Thunderbolt Display, 27 inch screen
 
 - Mobile Device
-    - Iphone 16 Pro Max
+    - Iphone 16 Pro Max, 6.9 inch screen
 
 Additional testing was done using Google Chromes inspection tool to test XS-Phone and Tablet. 
 
