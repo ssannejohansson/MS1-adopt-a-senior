@@ -160,8 +160,8 @@ HTML and CSS.
 I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the HTML and CSS on all pages of the website. 
 
 - Home page - No errors or warnings. 
-- Adoption page - 
-- Contact page - 
+- Adoption page - Error with the flip-card code. *Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error* 
+- Contact page - No errors or warnings. 
 - Success page - 
 - Thank you page - 
 
