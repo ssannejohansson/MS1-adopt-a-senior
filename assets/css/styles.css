@@ -7,17 +7,11 @@
 :root {
     --primary-font: "Poppins", system-ui;
     --secondary-font: "Aboreto", cursive;
-    --primary-color: #50443a;
-    /* dark brown */
-    --secondary-color: #e0d5d2;
-    /* light brown */
-    --highlight-color: #928177;
-    /* middle brown */
-    --second-highlight-color: #a3a4a2;
-    /* grey/blue */
-    --accent-color: #d98e37;
-    /* gold */
-
+    --primary-color: #50443a; /* dark brown */
+    --secondary-color: #e0d5d2; /* light brown */
+    --highlight-color: #928177; /* middle brown */
+    --second-highlight-color: #a3a4a2; /* grey/blue */
+    --accent-color: #d98e37; /* gold */
 }
 
 /* Global styles */
@@ -59,20 +53,6 @@ strong {
     color: #110E0C;
 }
 
-.custom-btn-hero {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
-    -webkit-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
-    -moz-box-shadow: 1px 1px 11px -2px rgba(80, 68, 58, 0.582);
-
-}
-
-.custom-btn-hero:hover {
-    background-color: #bcb3b0;
-}
-
-
 /* Navbar */
 #navbar {
     background-color: var(--secondary-color);
@@ -106,9 +86,8 @@ strong {
 .navbar-brand {
     font-size: 22px; 
 }
-
-/* Headers */
-
+/* HOMEPAGE */
+/* HOMEPAGE - Header */
 #hero {
     height: 500px;
     width: 100%;
@@ -128,16 +107,7 @@ strong {
     text-shadow: 0px 1px 10px rgb(13, 11, 10);
 }
 
-#hero-adopt {
-    height: 500px;
-    width: 100%;
-    background: url("../images/adopt-rehome.jpg") no-repeat top center / cover;
-}
-
-
-
-/* Main */
-
+/* Main - Home page*/
 /* Our mission */
 
 #about .card {
@@ -154,17 +124,7 @@ strong {
     height: 100%;
 }
 
-
-
-/* Preparation  */
-#preparation {
-    height: 100%;
-
-}
-
-
-/* Adoption - Homepage */
-
+/* HOMEPAGE - Adoption */
 #adopt {
     padding-top: 20px;
     background-color: var(--second-highlight-color);
@@ -183,17 +143,29 @@ strong {
     text-shadow: 0px 1px 10px rgba(49, 42, 37, 1);
 }
 
-/* Adopt page */
-/* Adoption & Rehopming section */
+/* HOMEPAGE - Preparation */
+#preparation {
+    height: 100%;
+}
+
+
+/* ADOPT PAGE */
+/* ADOPT PAGE - Hero */ 
+#hero-adopt {
+    height: 500px;
+    width: 100%;
+    background: url("../images/adopt-rehome.jpg") no-repeat top center / cover;
+}
+
+/* ADOPT PAGE - Adoption & Rehopming */
 #adopt-ready {
     background-color: var(--second-highlight-color);
     height: 100%;
     padding-bottom: 140px;
 }
 
-/* Flip cards by Nicolas Kadis */
-
-
+/* ADOPT PAGE - Ready for adoption */
+/* Flip cards - Code by Nicolas Kadis */
 input[type='checkbox'] {
     display: none;
 }
@@ -258,19 +230,19 @@ input[type='checkbox']:checked+.card-container .card-flip {
 }
 
 
-/* Pro tips section */
+/* ADOPT PAGE - Pro tips */
 #pro-tips {
-    min-height: 500px;
+    height: 100%;
 }
 
 
-
-
-/* Contact page */
+/* CONTACT PAGE */
+/* CONTACT PAGE - Contact us */ 
 #contact-us {
     color: var(--primary-color)
 }
 
+/* CONTACT PAGE - Form */
 #contact-us input,
 #contact-us textarea {
     border: 1px solid #50443a;
@@ -289,13 +261,14 @@ input[type='checkbox']:checked+.card-container .card-flip {
     ;
 }
 
-/*Success page */
+
+/* SUCCESS PAGE */
 #success {
     min-height: 500px;
 }
 
-/* Thank you page */
-
+/* THANK YOU PAGE */
+/* Heartshaped image, Code by Temani Afif */
 .thankyou {
     width: 500px;
     aspect-ratio: 1;
@@ -309,40 +282,28 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 }
 
-
-
-
-/* Footer */
-
-/* Contact */
-
+/* FOOTER */
 #footer {
     background-color: var(--secondary-color);
     position: relative;
 }
 
-
 #footer h2 {
     padding-top: 90px;
 }
 
+/* FOOTER - Contact */
 #footer #form-link {
     text-decoration: underline;
     color: var(--primary-color);
-
 }
 
 #footer #form-link:hover {
     color: var(--accent-color);
     font-weight: 400;
-
 }
 
-#support i {
-    font-size: 1rem;
-    color: var(--primary-color)
-}
-
+/* FOOTER - Socials */
 #footer .social-links i {
     font-size: 2rem;
     color: var(--primary-color);
@@ -356,16 +317,20 @@ input[type='checkbox']:checked+.card-container .card-flip {
     transition: 0.2s ease-in-out;
 }
 
+/* FOOTER - Support */ 
+#support i {
+    font-size: 1rem;
+    color: var(--primary-color)
+}
+
+/* FOOTER - Attributions */
 #footer em a {
     font-size: 14px;
     color: var(--highlight-color);
     text-decoration: none;
 }
 
-
-
-
-/* Shape dividers */
+/* SHAPEDIVIDERS BY SHAPEDIVIDER.APP */
 .divider-top {
     padding-top: 100px;
     position: relative;
@@ -438,11 +403,9 @@ input[type='checkbox']:checked+.card-container .card-flip {
     fill: #FFFFFF;
 }
 
-/* Media queries */
-
+/* MEDIA QUERIES */
 /* Media query: Small and medium phones (425px and smaller) */
 @media screen and (max-width: 424px) {
-
     /* Navbar */
     .navbar-brand {
         font-size: 14px;
@@ -450,9 +413,8 @@ input[type='checkbox']:checked+.card-container .card-flip {
     }
 }
 
-/* Media query: large phones (400px and up) */
+/* Media query: Large phones (400px and up) */
 @media screen and (min-width: 400px) {
-
     /* Hero image */
     .hero-text {
         top: 70%;
@@ -462,8 +424,6 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
-
     /* Hero image */
     #hero {
         height: 600px;
@@ -479,7 +439,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
     #hero-adopt {
         height: 600px;
     }
-
+    /* About */
     #about .card-text {
         min-height: 90px;
     }
@@ -492,7 +452,6 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
 /* Media query: laptop and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
     /* Navbar */
     #navbar a {
         font-size: 1.5rem;
@@ -504,10 +463,9 @@ input[type='checkbox']:checked+.card-container .card-flip {
 
     .logo {
     margin-right: 0px;
-}
+    }
 
     /* About */
-
     #about .card-text {
         min-height: 100px;
     }
@@ -517,10 +475,5 @@ input[type='checkbox']:checked+.card-container .card-flip {
         top: 40%;
         left: 8%;
         font-size: 30px;
-
     }
-
-
-
-
 }
