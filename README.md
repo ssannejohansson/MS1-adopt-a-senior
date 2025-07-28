@@ -1,6 +1,6 @@
 # Whiskers of Wisdom
 
-BILD
+<img src="assets/images/readme/amiresponsive.png">
 
 Whiskers of Wisdom is my first Milestone Project created for Code Institute Level 5 Diploma in Web Application Development. 
 
@@ -89,7 +89,17 @@ All images are downloaded from [Unsplash](https://unsplash.com/). Please see the
 
 Wireframes are created using [Balsamiq](https://balsamiq.com/). 
 
-Bilder här. 
+#### Home Page
+<img src="assets/images/readme/Homepage.png">
+
+#### Adoption Page
+<img src="assets/images/readme/Adoption.png">
+
+#### Contact Page
+<img src="assets/images/readme/Contact.png">
+
+#### Success / Thank you page
+<img src="assets/images/readme/Sucess.png">
 
 ## Features
 
@@ -134,6 +144,8 @@ HTML and CSS.
 
 [Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) - To check contrast between background and text on website. 
 
+[Am I Responsive?](https://ui.dev/amiresponsive) - To show the website on all devices.
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -143,6 +155,7 @@ HTML and CSS.
 ## Testing
 
 ### Automated testing
+
 
 
 ### Manual testing

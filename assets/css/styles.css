@@ -96,6 +96,9 @@ strong {
     -webkit-text-stroke-color: var(--primary-color);
 }
 
+.logo {
+    margin-right: 10px;
+}
 /* Headers */
 
 #hero {
@@ -158,7 +161,7 @@ strong {
     padding-top: 20px;
     background-color: var(--second-highlight-color);
     height: 100%;
-    margin-top: -1px; 
+    margin-top: -1px;
     padding-bottom: 170px;
     margin-bottom: 1px; 
 }
@@ -412,6 +415,15 @@ input[type='checkbox']:checked+.card-container .card-flip {
 }
 
 /* Media queries */
+
+/* Media query: Small and medium phones (425px and smaller) */
+@media screen and (max-width: 424px) {
+/* Navbar */
+.navbar-brand {
+font-size: 14px;
+font-weight: bold;
+}
+}
 
 /* Media query: large phones (400px and up) */
 @media screen and (min-width: 400px) {
