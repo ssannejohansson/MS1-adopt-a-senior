@@ -297,35 +297,20 @@ Each device tested the site using the following browsers:
 | All | **Footer support us button** | When clicked, thank you page will open | Clicked link | Pass |
 | All | **Footer attributions** | When clicked, the respective attribution-page will open | Clicked links | Pass |
 | All | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
-
-| Page | Feature | Expected Outcome | Action | Pass / Fail |
-| ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Home | **Hero button** | When clicked, page will scroll down to carousel showing available cats | Clicked button | Pass |
 | Home | **Our Mission buttons** | When clicked, the respective section or page will open | Clicked buttons | Pass |
 | Home | **Left and right buttons in carousel** | When clicked, the images will scroll left or right | Clicked the arrows | Pass |
 | Home | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
-
-| Page | Feature | Expected Outcome | Action | Pass / Fail |
-| ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Adoption | **Contact form Button** | When clicked, the contact page will open | Clicked button | Pass |
 | Adoption | **Flip Cards** | When clicked, the cards will turn to show information about the cats | Clicked cards | Pass |
 | Adoption | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
-
-| Page | Feature | Expected Outcome | Action | Pass / Fail |
-| ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Contact | **Inputs** | When clicked, all inputs will have a bold border to show that they are focused | Clicked inputs | Pass |
 | Contact | **Radio buttons** | When clicked, all radio buttons will work | Clicked radio buttons | Pass |
 | Contact | **Submit button** | When clicked, success page will open | Filled out form and clicked the button | Pass |
 | Contact | **Form Validation** | It's not possible to submit the contact form if inputs are blank or if a @ is missing in email-input | Filled out input by input to and clicked submit | Pass |
 | Contact | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
-
-| Page | Feature | Expected Outcome | Action | Pass / Fail |
-| ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Success | **Return to homepage** | When clicked, home page will open | Clicked button | Pass |
 | Success | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
-
-| Page | Feature | Expected Outcome | Action | Pass / Fail |
-| ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Thank You | **Return to homepage** | When clicked, home page will open | Clicked button | Pass |
 | Thank You | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused |Hovered over links and buttons | Pass |
 
