@@ -164,7 +164,15 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 - Contact page - No errors or warnings. 
 - Success page - No errors or warnings.
 - Thank you page - No errors or warnings. 
-- CSS - 
+- CSS - No errors or warnings. 
+
+#### Lighthouse
+I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practises and SEO of the website. 
+
+
+
+
+#### WAVE
 
 ### Manual testing
 
