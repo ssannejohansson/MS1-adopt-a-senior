@@ -140,14 +140,14 @@ The favicon is converted from the [Logo](https://www.vecteezy.com/vector-art/655
 **Navbar** <br>
 The navbar is created from a [Bootstrap](https://getbootstrap.com) navbar that I later styled. For example, I moved the logo to the center instead of to the left to make it look consistent to the rest of the website. The navbar is fully responsive and I chose to position the links in the open nav to the left to follow the consistency of the logo and text. <br>
 <img src="assets/images/readme/nav-desktop.png">
-<img src="assets/images/readme/nav-mobiletablet.png" width="60%"><br>
-<img src="assets/images/readme/opennav.png" width="60%">
+<img src="assets/images/readme/nav-mobiletablet.png">
+<img src="assets/images/readme/opennav.png">
 
 
 **Footer** <br>
 The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make it fully responsive. At desktop, it's a two-column-layout and from tablet to mobile it comes down to one column. <br>
-<img src="assets/images/readme/footer-desktop.png" width="60%"><br>
-<img src="assets/images/readme/footer-mobiletablet.png" width="60%">
+<img src="assets/images/readme/footer-desktop.png">
+<img src="assets/images/readme/footer-mobiletablet.png">
 
 ### Future Implentations
 - In the future, I will add a section at the adoption page dedicated for **success stories** due to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
