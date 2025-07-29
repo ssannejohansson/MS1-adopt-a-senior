@@ -221,6 +221,7 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 - **Home page** - No errors or warnings. 
 - **Adoption page** - Error with the flip-card code.
 <img src="assets/images/readme/error.png"> 
+
 *Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error.*
 
 - **Contact page** - No errors or warnings. 
