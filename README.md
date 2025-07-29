@@ -51,8 +51,6 @@ The goal was to make a visually appealing yet clean website that meets the users
 
 ### User Stories
 
-#### Client Goals
-
 ##### First Time Visitor Goals
 - I want to find a senior cat to adopt
 - I want to know more about caring for elderly cats
@@ -67,7 +65,7 @@ The goal was to make a visually appealing yet clean website that meets the users
 - I want to share my success story. 
 - I want to support the shelter. 
 
-#### Moscow Prioritization
+#### Client Goals and Moscow Prioritization
 ##### Must Have
 - A responsive website that looks and functions well on all screensizes 
 - A Navigation that is obvious to the user 
@@ -150,11 +148,11 @@ The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make
 <img src="assets/images/readme/footer-mobiletablet.png">
 
 ### Future Implentations
-- In the future, I will add a section at the adoption page dedicated for **success stories** due to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
+- In the future, I will add a section at the adoption page dedicated for **success stories** to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
 
 - In a later update I'll also be adding a newsletter. This will function through a "Sign up for our newsletter" button that will trigger a modal where you can sign up for the newsletter. The newsletter will include new cats at the shelter, previous adoptions, success stories and guidance.
 
-- Throughout the whole process of this site, I've had accessibility in mind. I've used semantic The Lighthouse report, see further down, is giving great scores but in the next update I will focus on making it even better. 
+- Throughout the whole process of this site, I've had accessibility in mind. The Lighthouse report, see further down, is giving great scores but in the next update I will focus on making it even better. 
 
 ## Technologies Used
 
@@ -224,13 +222,18 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 - **Adoption page** - Error with the flip-card code.
 <img src="assets/images/readme/error.png"> 
 *Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error.*
+
 - **Contact page** - No errors or warnings. 
 - **Success page** - No errors or warnings.
 - **Thank you page** - No errors or warnings. 
 - **CSS** - No errors or warnings. 
 
 #### Lighthouse
-I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practises and SEO of the website. I run the test for both desktop and mobile. 
+I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practices and SEO of the website. I run the test for both desktop and mobile. 
+
+*Prestanda = Performance* <br>
+*Tillgänglighet = Accessibility*<br>
+*Bästa metoder = Best practices* 
 
 <details><summary>Home page</summary>
 Desktop<br>
