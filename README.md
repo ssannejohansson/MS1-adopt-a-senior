@@ -88,8 +88,8 @@ The goal was to make a visually appealing yet clean website that meets the users
 ### Colour Scheme
 
 For color scheme, I took inspiration from the hero-image on the front page to generate a scheme that looked good. For this, I used [Muzli Colors](https://colors.muz.li/).<br>
-<img src="assets/images/hero-index.jpg" width="400" height="280">
-<img src="assets/images/readme/colorscheme.svg" width="400" height="280">
+<img src="assets/images/hero-index.jpg" width="50%" >
+<img src="assets/images/readme/colorscheme.svg" width="50%">
 
 ### Typography
 
@@ -113,17 +113,25 @@ All images are downloaded from [Unsplash](https://unsplash.com/). Please see the
 
 Wireframes are created using [Balsamiq](https://balsamiq.com/). 
 
-#### Home Page
+<details>
+<summary>Home Page</summary>
 <img src="assets/images/readme/Homepage.png">
+</details>
 
-#### Adoption Page
+<details>
+<summary>Adoption Page</summary>
 <img src="assets/images/readme/Adoption.png">
+</details>
 
-#### Contact Page
+<details>
+<summary>Contact Page</summary>
 <img src="assets/images/readme/Contact.png">
+</details>
 
-#### Success / Thank you page
+<details>
+<summary>Success / Thank you page</summary>
 <img src="assets/images/readme/Sucess.png">
+</details>
 
 ### General features on each page
 **Favicon** <br>
@@ -132,14 +140,14 @@ The favicon is converted from the [Logo](https://www.vecteezy.com/vector-art/655
 **Navbar** <br>
 The navbar is created from a [Bootstrap](https://getbootstrap.com) navbar that I later styled. For example, I moved the logo to the center instead of to the left to make it look consistent to the rest of the website. The navbar is fully responsive and I chose to position the links in the open nav to the left to follow the consistency of the logo and text. 
 <img src="assets/images/readme/nav-desktop.png">
-<img src="assets/images/readme/nav-mobiletablet.png">
-<img src="assets/images/readme/opennav.png">
+<img src="assets/images/readme/nav-mobiletablet.png" width="50%">
+<img src="assets/images/readme/opennav.png" width="50%">
 
 
 **Footer** <br>
 The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make it fully responsive. At desktop, it's a two-column-layout and from tablet to mobile it comes down to one column. 
-<img src="assets/images/readme/footer-desktop.png">
-<img src="assets/images/readme/footer-mobiletablet.png">
+<img src="assets/images/readme/footer-desktop.png" width="50%">
+<img src="assets/images/readme/footer-mobiletablet.png" width="50%">
 
 ### Future Implentations
 - In the future, I will add a section at the adoption page dedicated for **success stories** due to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
@@ -202,6 +210,7 @@ I've used GitHub Pages to deploy this site. To deploy a site on GitHub Pages you
 To fork the repository, log in to your GitHub account, go to the repository of the project you want to fork [this one](https://github.com/ssannejohansson/MS1-adopt-a-senior.git) for this project, and click on the Fork button in the top right corner. 
 
 **How to Clone**
+
 To clone the repository, log in your GitHub accout, go to the repository of the project you want to clone [this one](https://github.com/ssannejohansson/MS1-adopt-a-senior.git) for this project, click on the **Code** button and select if you want to clone with HTTPS, SSH or GitHub CLI and copy the code. Open the **terminal** in your code editor and change directory to the location you want to use for the cloned directory and type *git clone* into the terminal and paste the link you copied. Press **enter**. 
 
 ## Testing
@@ -223,31 +232,41 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 #### Lighthouse
 I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practises and SEO of the website. I run the test for both desktop and mobile. 
 
-- **Home page** <br>
-Desktop
-    <img src="assets/images/readme/homepage-desktop.png">
-Mobile
-    <img src="assets/images/readme/homepage-mobile.png">
-- **Adoption page** <br>
- Desktop
-    <img src="assets/images/readme/adoption-desktop.png">
-Mobile
+<details><summary>Home page</summary>
+Desktop<br>
+    <img src="assets/images/readme/homepage-desktop.png"><br>
+Mobile<br>
+    <img src="assets/images/readme/homepage-mobile.png">¨
+</details>
+
+<details><summary>Adoption page</summary>
+ Desktop<br>
+    <img src="assets/images/readme/adoption-desktop.png"><br>
+Mobile<br>
     <img src="assets/images/readme/adoption-mobile.png">
-- **Contact page** <br>
-Desktop
-    <img src="assets/images/readme/contact-desktop.png">
-Mobile
+    </details>
+
+<details><summary>Contact page</summary> 
+Desktop<br>
+    <img src="assets/images/readme/contact-desktop.png"><br>
+Mobile<br>
     <img src="assets/images/readme/contact-mobile.png">
-- **Success page** <br>
-Desktop
-    <img src="assets/images/readme/success-desktop.png">
-Mobile
+    </details>
+
+<details><summary>Success page</summary>
+Desktop<br>
+    <img src="assets/images/readme/success-desktop.png"><br>
+Mobile<br>
     <img src="assets/images/readme/success-mobile.png">
-- **Thank you page** <br>
-Desktop
-    <img src="assets/images/readme/thankyou-desktop.png">
-Mobile
+    </details>
+
+<details><summary>Thank you page</summary>
+Desktop<br>
+    <img src="assets/images/readme/thankyou-desktop.png"><br>
+Mobile<br>
     <img src="assets/images/readme/thankyou-mobile.png">
+    </details>
+<br>
 
 Overall, the accessibility, best practises and SEO results are great. 
 
@@ -260,15 +279,15 @@ The reason that the accessibility isn't perfect is mostly because of the color o
 #### Testing Client Goals
 | Moscow Prioritization | Goal | Status |
 | --- | ----------- | --- |
-| Must Have | A responsive website that looks and functions well on all screensizes | **Done**|
-| Must Have | A Navigation that is obvious to the user  | **Done** |
-| Must Have | Clean, focused design that clearly communicates our mission without unneccessary clutter | **Done** |
-| Must Have | Search Engine Optimization (SEO) tailored that makes people who specifically looking for senior cats find us | **Done** |
-| Must Have | A contact form with easy-to-select topics to make inquiries reach the right team-member | **Done** |
-| Should Have | Information on how to take care of elderly cats | **Done** |
-| Should Have | Information about preparation before adopting a cat | **Done** |
-| Could Have | Heartwarming success stories of rehomed cats | *Next version* |
-| Could Have | A newsletter | *Next version*  |
+| **Must Have** | A responsive website that looks and functions well on all screensizes | **Done**|
+| **Must Have** | A Navigation that is obvious to the user  | **Done** |
+| **Must Have** | Clean, focused design that clearly communicates our mission without unneccessary clutter | **Done** |
+| **Must Have** | Search Engine Optimization (SEO) tailored that makes people who specifically looking for senior cats find us | **Done** |
+| **Must Have** | A contact form with easy-to-select topics to make inquiries reach the right team-member | **Done** |
+| **Should Have** | Information on how to take care of elderly cats | **Done** |
+| **Should Have** | Information about preparation before adopting a cat | **Done** |
+| **Could Have** | Heartwarming success stories of rehomed cats | *Next version* |
+| **Could Have** | A newsletter | *Next version*  |
 
 #### Full testing
 Full testing was performed on the folliwing devices:
@@ -320,9 +339,9 @@ Each device tested the site using the following browsers:
 
 | Bug | How I solved it |
 | ----------- | ----------- |
-| On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared? section". | Added a margin-bottom of 1px on the section to move the background-color of the section 1px up. This made the line move to the top, so I needed to add -1px margin-top too to fix that. |
-| The About-link in the navbar does not work from other pages than Home Page.| Add index.html before #about to make it direct to index.html and then the section |
-| On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Add img-fluid bootstrap class to image to make it responsive. |
+| On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared?" section at home page. | Added a margin-bottom of 1px on the section to move the background-color of the section 1px up. This made the line move to the top, so I needed to add -1px margin-top too to fix that. |
+| The About-link in the navbar does not work from other pages than home page.| Added index.html before #about to make it direct to index.html and then the section (index.html#about). |
+| On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Added the img-fluid bootstrap class to image to make it responsive. |
 
 
 ## Credits
