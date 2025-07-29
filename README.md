@@ -88,8 +88,8 @@ The goal was to make a visually appealing yet clean website that meets the users
 ### Colour Scheme
 
 For color scheme, I took inspiration from the hero-image on the front page to generate a scheme that looked good. For this, I used [Muzli Colors](https://colors.muz.li/).<br>
-<img src="assets/images/hero-index.jpg" width="50%" >
-<img src="assets/images/readme/colorscheme.svg" width="50%">
+<img src="assets/images/hero-index.jpg" width="300px">
+<img src="assets/images/readme/colorscheme.svg" width="300px">
 
 ### Typography
 
@@ -138,16 +138,16 @@ Wireframes are created using [Balsamiq](https://balsamiq.com/).
 The favicon is converted from the [Logo](https://www.vecteezy.com/vector-art/65580867-cat-silhouette-art-illustration-with-white-backgroun)  using [Favicon.io](https://favicon.io/favicon-converter/). 
 
 **Navbar** <br>
-The navbar is created from a [Bootstrap](https://getbootstrap.com) navbar that I later styled. For example, I moved the logo to the center instead of to the left to make it look consistent to the rest of the website. The navbar is fully responsive and I chose to position the links in the open nav to the left to follow the consistency of the logo and text. 
+The navbar is created from a [Bootstrap](https://getbootstrap.com) navbar that I later styled. For example, I moved the logo to the center instead of to the left to make it look consistent to the rest of the website. The navbar is fully responsive and I chose to position the links in the open nav to the left to follow the consistency of the logo and text. <br>
 <img src="assets/images/readme/nav-desktop.png">
-<img src="assets/images/readme/nav-mobiletablet.png" width="50%">
-<img src="assets/images/readme/opennav.png" width="50%">
+<img src="assets/images/readme/nav-mobiletablet.png" width="60%"><br>
+<img src="assets/images/readme/opennav.png" width="60%">
 
 
 **Footer** <br>
-The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make it fully responsive. At desktop, it's a two-column-layout and from tablet to mobile it comes down to one column. 
-<img src="assets/images/readme/footer-desktop.png" width="50%">
-<img src="assets/images/readme/footer-mobiletablet.png" width="50%">
+The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make it fully responsive. At desktop, it's a two-column-layout and from tablet to mobile it comes down to one column. <br>
+<img src="assets/images/readme/footer-desktop.png" width="60%"><br>
+<img src="assets/images/readme/footer-mobiletablet.png" width="60%">
 
 ### Future Implentations
 - In the future, I will add a section at the adoption page dedicated for **success stories** due to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
