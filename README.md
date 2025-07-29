@@ -153,7 +153,7 @@ The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make
 ### Future Implentations
 - In the future, I will add a section at the adoption page dedicated for **success stories** to meet the user stories. Even further, this could develop into a separate forum-page for people to write stories, share pictures and encouragements. 
 
-- The "Help us with our misson" button will trigger a modal where the user can choose a amount to donate. When this is done, the page will redirect to the thank-you page. 
+- The "Help us with our misson" button will trigger a separate page for donations and inquiries to sponsor and volunteer. When this is done, the page will redirect to the thank-you page. 
 
 - In a later update I'll also be adding a newsletter. This will function through a "Sign up for our newsletter" button that will trigger a modal where you can sign up for the newsletter. The newsletter will include new cats at the shelter, previous adoptions, success stories and guidance.
 
