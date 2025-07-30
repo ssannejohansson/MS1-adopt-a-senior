@@ -45,11 +45,10 @@ The goal was to make a visually appealing yet clean website that meets the users
 
 ##### Should Have
 - Information on how to take care of elderly cats 
-- Information about preparation before adopting a cat 
+- Information about preparation before adopting a cat
 
 ##### Could Have
-- Heartwarming success stories of rehomed cats 
-- A newsletter 
+- Possibility to donate for our cause
 
 ## Design
 
@@ -190,23 +189,31 @@ To clone the repository, log in your GitHub accout, go to the repository of the 
 
 ## Testing
 
-### Automated testing
-
-#### W3C Validator
+### W3C Validator
 I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the HTML and CSS on all pages of the website. 
 
 - **Home page** - No errors or warnings. 
-- **Adoption page** - Error with the flip-card code.
-<img src="assets/images/readme/error.png"> 
+<img src="readme-assets/w3c-index.png">
 
-*Since I don't have a solution for this and everything is working in manual testing, I've decided to leave this error.*
+- **Adoption page** - No errors or warnings. 
+<img src="readme-assets/w3c-adoption.png">
 
-- **Contact page** - No errors or warnings. 
+- **Contact page** - No errors or warnings.
+<img src="readme-assets/w3c-contact.png">
+
 - **Success page** - No errors or warnings.
-- **Thank you page** - No errors or warnings. 
-- **CSS** - No errors. Warnings about vendor extensions, coming from autoprefixes when I run the code through [Autoprefixer](https://autoprefixer.github.io/).
+<img src="readme-assets/w3c-success.png">
 
-#### Lighthouse
+- **Thank you page** - No errors or warnings. 
+<img src="readme-assets/w3c-thankyou.png">
+
+- **404 page** - No errors or warnings. 
+<img src="readme-assets/w3c-404.png">
+
+- **CSS** - No errors. Warnings about vendor extensions, coming from autoprefixes when I run the code through [Autoprefixer](https://autoprefixer.github.io/).
+<img src="readme-assets/w3c-css.png">
+
+### Lighthouse
 I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practices and SEO of the website. I run the test for both desktop and mobile. 
 
 *Prestanda = Performance* <br>
@@ -253,8 +260,6 @@ Overall, the accessibility, best practises and SEO results are great.
 
 The orange performance numbers are mostly due to image-sizes even though I compressed them with TinyPNG. In future projects, I will look into other ways of compressing images to get a better performance. 
 
-The reason that the accessibility isn't perfect is mostly because of the color of the attributions in the footer. I choose to keep the color because i don't want the attributions to take focus from the other elements in the footer.  
-
 ### Manual testing
 
 #### Testing Client Goals
@@ -267,10 +272,9 @@ The reason that the accessibility isn't perfect is mostly because of the color o
 | **Must Have** | A contact form with easy-to-select topics to make inquiries reach the right team-member | **Done** |
 | **Should Have** | Information on how to take care of elderly cats | **Done** |
 | **Should Have** | Information about preparation before adopting a cat | **Done** |
-| **Could Have** | Heartwarming success stories of rehomed cats | *Next version* |
-| **Could Have** | A newsletter | *Next version*  |
+| **Could Have** | Possibility to donate for our cause | **Done** |
 
-#### Full testing
+### Full testing
 Full testing was performed on the folliwing devices:
 - Laptop 
     - MacBook Air M2 2022, 13.6 inch screen
@@ -314,6 +318,8 @@ Each device tested the site using the following browsers:
 | Success | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused | Hovered over links and buttons | Pass |
 | Thank You | **Return to homepage** | When clicked, home page will open | Clicked button | Pass |
 | Thank You | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused |Hovered over links and buttons | Pass |
+| 404 | **Return to homepage** | When clicked, home page will open | Clicked button | Pass |
+| 404 | **Hovers** | When hovering, all buttons and links will have a hover-effect to show that they are focused |Hovered over links and buttons | Pass |
 
 ### Bugs
 
