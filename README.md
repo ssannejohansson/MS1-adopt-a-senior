@@ -1,6 +1,6 @@
 # Whiskers of Wisdom
 
-<img src="assets/images/readme/amiresponsive.png">
+<img src="readme-assets/amiresponsive.png">
 
 Whiskers of Wisdom is my first Milestone Project created for Code Institute Level 5 Diploma in Web Application Development. 
 
@@ -56,7 +56,7 @@ The goal was to make a visually appealing yet clean website that meets the users
 
 For color scheme, I took inspiration from the hero-image on the front page to generate a scheme that looked good. For this, I used [Muzli Colors](https://colors.muz.li/).<br>
 <img src="assets/images/hero-index.jpg" width="300px">
-<img src="assets/images/readme/colorscheme.svg" width="300px">
+<img src="readme-assets/colorscheme.svg" width="300px">
 
 ### Typography
 
@@ -64,11 +64,11 @@ I used Google Fonts for the typography.
 
 For headings, I used [Aboreto](https://fonts.google.com/specimen/Aboreto?query=aboreto). I choose this font because of it's simple but yet fancy look since I didn't want it to stand out to much and make the look of the website unprofessional.
 
-<img src="assets/images/readme/aboreto.png">
+<img src="readme-assets/aboreto.png">
 
 For bodytext, I used [Poppins Light](https://fonts.google.com/specimen/Poppins?query=poppins) since I wanted the font weight to match the Aboreto font, and to make the website look clean and the text easy to read. 
 
-<img src="assets/images/readme/poppinslight.png">
+<img src="readme-assets/poppinslight.png">
 
 ### Imagery
 
@@ -82,12 +82,12 @@ Wireframes are created using [Balsamiq](https://balsamiq.com/).
 
 <details>
 <summary>Home Page</summary>
-<img src="assets/images/readme/Homepage.png">
+<img src="readme-assets/homepage.png">
 </details>
 
 <details>
 <summary>Adoption Page</summary>
-<img src="assets/images/readme/Adoption.png">
+<img src="readme-assets/adoption.png">
 </details>
 
 <details>
@@ -97,7 +97,7 @@ Wireframes are created using [Balsamiq](https://balsamiq.com/).
 
 <details>
 <summary>Success / Thank you page</summary>
-<img src="assets/images/readme/Sucess.png">
+<img src="readme-assets/sucess.png">
 </details>
 
 ### General features on each page
@@ -106,16 +106,16 @@ The favicon is converted from the [Logo](https://www.vecteezy.com/vector-art/655
 
 **Navbar** <br>
 The navbar is created from a [Bootstrap](https://getbootstrap.com) navbar that I later styled. For example, I moved the logo to the center instead of to the left to make it look consistent to the rest of the website. The navbar is fully responsive and I chose to position the links in the open nav to the left to follow the consistency of the logo and text. <br>
-<img src="assets/images/readme/nav-desktop.png">
-<img src="assets/images/readme/nav-mobiletablet.png">
-<img src="assets/images/readme/opennav.png">
+<img src="readme-assets/nav-desktop.png">
+<img src="readme-assets/nav-mobiletablet.png">
+<img src="readme-assets/opennav.png">
 
 
 **Footer** <br>
 The footer is created using a [Bootstrap](https://getbootstrap.com) grid to make it fully responsive. At desktop, it's a two-column-layout and from tablet to mobile it comes down to one column. <br> 
 
-<img src="assets/images/readme/footer-desktop.png">
-<img src="assets/images/readme/footer-mobiletablet.png">
+<img src="readme-assets/footer-desktop.png">
+<img src="readme-assets/footer-mobiletablet.png">
 
 *For now, there's no function at the "Help us with our mission" button, other than a redirection to a thank-you page. This will be implimented in a later version.* 
 
@@ -222,37 +222,37 @@ I used the Chrome Developer Tool Lighthouse to test performance, accessibility, 
 
 <details><summary>Home page</summary>
 Desktop<br>
-    <img src="assets/images/readme/homepage-desktop.png"><br>
+    <img src="readme-assets/homepage-desktop.png"><br>
 Mobile<br>
-    <img src="assets/images/readme/homepage-mobile.png">¨
+    <img src="readme-assets/homepage-mobile.png">¨
 </details>
 
 <details><summary>Adoption page</summary>
  Desktop<br>
-    <img src="assets/images/readme/adoption-desktop.png"><br>
+    <img src="readme-assets/adoption-desktop.png"><br>
 Mobile<br>
-    <img src="assets/images/readme/adoption-mobile.png">
+    <img src="readme-assets/adoption-mobile.png">
     </details>
 
 <details><summary>Contact page</summary> 
 Desktop<br>
-    <img src="assets/images/readme/contact-desktop.png"><br>
+    <img src="readme-assets/contact-desktop.png"><br>
 Mobile<br>
-    <img src="assets/images/readme/contact-mobile.png">
+    <img src="readme-assets/contact-mobile.png">
     </details>
 
 <details><summary>Success page</summary>
 Desktop<br>
-    <img src="assets/images/readme/success-desktop.png"><br>
+    <img src="readme-assets/success-desktop.png"><br>
 Mobile<br>
-    <img src="assets/images/readme/success-mobile.png">
+    <img src="readme-assets/success-mobile.png">
     </details>
 
 <details><summary>Thank you page</summary>
 Desktop<br>
-    <img src="assets/images/readme/thankyou-desktop.png"><br>
+    <img src="readme-assets/thankyou-desktop.png"><br>
 Mobile<br>
-    <img src="assets/images/readme/thankyou-mobile.png">
+    <img src="readme-assets/thankyou-mobile.png">
     </details>
 <br>
 
