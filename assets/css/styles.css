@@ -181,7 +181,8 @@ input[type='checkbox'] {
 .card {
     border-radius: 20px;
     padding: 10px;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    cursor: pointer;
 }
 
 .card-img-top {
