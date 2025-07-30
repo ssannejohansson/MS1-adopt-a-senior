@@ -29,10 +29,8 @@ The goal was to make a visually appealing yet clean website that meets the users
 ##### Returning Visitor Goals
 - I want to see if there is new cats available for adoption 
 - I need guidance on how to take care of my new adoptee
-- I want to read heartwarming success stories to keep my motivation since I'm having a hard time 
 
 ##### Frequent Visitor Goals
-- I want to share my success story. 
 - I want to support the shelter. 
 
 #### Client Goals and Moscow Prioritization
@@ -330,6 +328,7 @@ Each device tested the site using the following browsers:
 | On mobile, a line appeared between the shape-divider and heading for the "Are You Prepared?" section at home page. | Added a margin-bottom of 1px on the section to move the background-color of the section 1px up. This made the line move to the top, so I needed to add -1px margin-top too to fix that. |
 | The About-link in the navbar does not work from other pages than home page.| Added index.html before #about to make it direct to index.html and then the section (index.html#about). |
 | On mobile, the heart-shaped image at the success-page is too large and does not show properly. | Added the img-fluid bootstrap class to image to make it responsive. |
+| When validating the HTML, the flip-card code was causing a error that said a div could not be a child of an label. | I changed all the divs, the h4 and p to spans to make the code work the same, without giving a error.  |
 
 
 ## Credits
