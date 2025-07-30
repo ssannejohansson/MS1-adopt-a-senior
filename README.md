@@ -194,6 +194,8 @@ HTML and CSS.
 
 [Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) - To check contrast between background and text on website. 
 
+[Autoprefixer](https://autoprefixer.github.io/) - To make sure the code is working across browsers. 
+
 [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website on all devices.
 
 ## Deployment & Local Development
@@ -232,7 +234,7 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 - **Contact page** - No errors or warnings. 
 - **Success page** - No errors or warnings.
 - **Thank you page** - No errors or warnings. 
-- **CSS** - No errors or warnings. 
+- **CSS** - No errors. Warnings about vendor extensions, coming from autoprefixes when I run the code through [Autoprefixer](https://autoprefixer.github.io/).
 
 #### Lighthouse
 I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practices and SEO of the website. I run the test for both desktop and mobile. 
@@ -304,7 +306,7 @@ Full testing was performed on the folliwing devices:
     - MacBook Air M2 2022, 13.6 inch screen
 - External Display
     - Apple Thunderbolt Display, 27 inch screen
-
+  
 - Mobile Device
     - Iphone 16 Pro Max, 6.9 inch screen
 
