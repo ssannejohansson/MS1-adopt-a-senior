@@ -6,39 +6,9 @@ Whiskers of Wisdom is my first Milestone Project created for Code Institute Leve
 
 Link to deployed site: [Whiskers of Wisdom](https://ssannejohansson.github.io/MS1-adopt-a-senior/)
 
-## Contents
-
-- [User Experience (UX)](#user-experience-ux)
-    - [Project Goals](#project-goals)
-    - [User Stories](#user-stories)
-- [Design](#design)
-    - [Color Scheme](#colour-scheme)
-    - [Typography](#typography)
-    - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-    - [Genreal Features](#general-features-on-each-page)
-    - [Future Implementations](#future-implentations)
-- [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-    - [Frameworks Used](#frameworks-used)
-    - [Programs Used](#programs-used)
-- [Deployment & Local Development](#deployment--local-development)
-    - [Deployment](#deployment)
-    - [Local Development](#local-development)
-- [Testing](#testing)
-    - [Automated Testing](#automated-testing)
-    - [Manual Testing](#manual-testing)
-    - [Bugs](#bugs)
-- [Credits](#credits)
-    - [Code Used](#code-used)
-    - [Content](#content)
-    - [Media](#media)
-
-
-
 ## User Experience (UX)
 
-### Project Goals
+### Project Goals / Rationale 
 As a animal lover who has adopted two senior cats who never got choosen due to their age from a shelter, I wanted to create a webpage especially for us who is passionated by giving the overlooked ones a loving home. 
 
 The goal was to make a visually appealing yet clean website that meets the users need without being cluttered. 
