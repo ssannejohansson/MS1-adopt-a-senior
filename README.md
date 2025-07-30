@@ -314,6 +314,7 @@ Each device tested the site using the following browsers:
 - Google Chrome
 - Safari 
 - Firefox 
+- Edge
 
 
 | Page | Feature | Expected Outcome | Action | Pass / Fail |
