@@ -190,6 +190,8 @@ To clone the repository, log in your GitHub accout, go to the repository of the 
 ### W3C Validator
 I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the HTML and CSS on all pages of the website. 
 
+<details><summary>Show results</summary>
+
 - **Home page** - No errors or warnings. 
 <img src="readme-assets/w3c-index.png">
 
@@ -210,6 +212,7 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 
 - **CSS** - No errors. Warnings about vendor extensions, coming from autoprefixes when I run the code through [Autoprefixer](https://autoprefixer.github.io/).
 <img src="readme-assets/w3c-css.png">
+</details>
 
 ### Lighthouse
 I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practices and SEO of the website. I run the test for both desktop and mobile. 
