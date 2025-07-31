@@ -247,7 +247,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
 /* CONTACT PAGE */
 /* CONTACT PAGE - Contact us */ 
 #contact-us {
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 /* CONTACT PAGE - Form */
@@ -397,6 +397,7 @@ input[type='checkbox']:checked+.card-container .card-flip {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    margin-top: -1px;
 }
 
 .custom-shape-divider-top-1753424451 svg {

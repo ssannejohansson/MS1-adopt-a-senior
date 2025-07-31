@@ -276,11 +276,11 @@ The orange performance numbers are mostly due to image-sizes even though I compr
 
 | Device | Home | Adoption | Contact | Success | Thank you | 404 | Notes |
 | -------- | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
-| Mobile (DevTools) | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
-| Iphone 16 Pro Max | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
-| Tablet (DevTools) | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
-| 13.6 inch MacBook Air M2  | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
-| Laptop L (Devtools) | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Mobile (DevTools) | ![screenshot](readme-assets/mobile-home.png) | ![screenshot](readme-assets/mobile-adopt.png) | ![screenshot](readme-assets/mobile-contact.png) | ![screenshot](readme-assets/mobile-success.png) | ![screenshot](readme-assets/mobile-thankyou.png) | ![screenshot](readme-assets/mobile-404.png) | Work as expected | 
+| Iphone 16 Pro Max |![screenshot](readme-assets/iphone-home.png) | ![screenshot](readme-assets/iphone-adopt.png)| ![screenshot](readme-assets/iphone-contact.png) | ![screenshot](readme-assets/iphone-success.png) | ![screenshot](readme-assets/iphone-thankyou.png) | ![screenshot](readme-assets/iphone-404.png) | Work as expected | 
+| Tablet (DevTools) |![screenshot](readme-assets/tablet-home.png) | ![screenshot](readme-assets/tablet-adopt.png) | ![screenshot](readme-assets/tablet-contact.png) | ![screenshot](readme-assets/tablet-success.png) | ![screenshot](readme-assets/tablet-thankyou.png) | ![screenshot](readme-assets/tablet-404.png) | Work as expected | 
+| 13.6 inch MacBook Air M2  |![screenshot](readme-assets/chrome-home.png) | ![screenshot](readme-assets/chrome-adopt.png)| ![screenshot](readme-assets/chrome-contact.png) | ![screenshot](readme-assets/chrome-success.png) | ![screenshot](readme-assets/chrome-thankyou.png) | ![screenshot](readme-assets/chrome-404.png) | Work as expected | 
+| Laptop L (Devtools) | ![screenshot](readme-assets/laptop-l-home.png) | ![screenshot](readme-assets/laptop-l-adopt.png)| ![screenshot](readme-assets/laptop-l-contact.png) | ![screenshot](readme-assets/laptop-l-success.png) | ![screenshot](readme-assets/laptop-l-thankyou.png) | ![screenshot](readme-assets/laptop-l-404.png) | Work as expected | 
 
 
 
