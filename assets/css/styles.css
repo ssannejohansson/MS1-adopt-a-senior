@@ -161,7 +161,9 @@ strong {
 #adopt-ready {
     background-color: var(--second-highlight-color);
     height: 100%;
+    margin-top: -1px;
     padding-bottom: 140px;
+    margin-bottom: 1px;
 }
 
 /* ADOPT PAGE - Ready for adoption */
