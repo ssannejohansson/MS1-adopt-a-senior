@@ -258,9 +258,34 @@ Overall, the accessibility, best practises and SEO results are great.
 
 The orange performance numbers are mostly due to image-sizes even though I compressed them with TinyPNG. In future projects, I will look into other ways of compressing images to get a better performance. 
 
-### Manual testing
 
-#### Testing Client Goals
+### Browser Compatibility
+
+| Browser | Home | Adoption | Contact | Success | Thank you | 404 | Notes |
+| -------- | ------- | -------- | ------- | -------- | ------- | -------- | -------- |  
+| Chrome | ![screenshot]() | ![screenshot]() | ------- | -------- | ------- | -------- | -------- | 
+| Firefox | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Edge | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Safari | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+
+
+
+
+### Responsiveness
+
+| Device | Home | Adoption | Contact | Success | Thank you | 404 | Notes |
+| -------- | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Mobile (DevTools) | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Iphone 16 Pro Max | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Tablet (DevTools) | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| 13.6 inch MacBook Air M2  | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+| Laptop L (Devtools) | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
+
+
+
+
+
+### Testing Client Goals
 | Moscow Prioritization | Goal | Status |
 | --- | ----------- | --- |
 | **Must Have** | A responsive website that looks and functions well on all screensizes | **Done**|
@@ -272,24 +297,7 @@ The orange performance numbers are mostly due to image-sizes even though I compr
 | **Should Have** | Information about preparation before adopting a cat | **Done** |
 | **Could Have** | Possibility to donate for our cause | **Done** |
 
-### Full testing
-Full testing was performed on the folliwing devices:
-- Laptop 
-    - MacBook Air M2 2022, 13.6 inch screen
-- External Display
-    - Apple Thunderbolt Display, 27 inch screen
-  
-- Mobile Device
-    - Iphone 16 Pro Max, 6.9 inch screen
-
-Additional testing was done using Google Chromes inspection tool to test XS-Phone and Tablet. 
-
-Each device tested the site using the following browsers:
-- Google Chrome
-- Safari 
-- Firefox 
-- Edge
-
+### Testing Features
 
 | Page | Feature | Expected Outcome | Action | Pass / Fail |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
