@@ -217,22 +217,18 @@ I used [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator]
 ### Lighthouse
 I used the Chrome Developer Tool Lighthouse to test performance, accessibility, best practices and SEO of the website. I run the test for both desktop and mobile. 
 
-*Prestanda = Performance* <br>
-*Tillgänglighet = Accessibility*<br>
-*Bästa metoder = Best practices* 
-
 <details><summary>Home page</summary>
 Desktop<br>
-    <img src="readme-assets/homepage-desktop.png"><br>
+    <img src="readme-assets/home-desktop.png"><br>
 Mobile<br>
-    <img src="readme-assets/homepage-mobile.png">¨
+    <img src="readme-assets/home-mobile.png">¨
 </details>
 
 <details><summary>Adoption page</summary>
  Desktop<br>
-    <img src="readme-assets/adoption-desktop.png"><br>
+    <img src="readme-assets/adopt-desktop.png"><br>
 Mobile<br>
-    <img src="readme-assets/adoption-mobile.png">
+    <img src="readme-assets/adopt-mobile.png">
     </details>
 
 <details><summary>Contact page</summary> 
@@ -255,12 +251,18 @@ Desktop<br>
 Mobile<br>
     <img src="readme-assets/thankyou-mobile.png">
     </details>
+
+<details><summary>404 page</summary>
+Desktop<br>
+    <img src="readme-assets/404-desktop.png"><br>
+Mobile<br>
+    <img src="readme-assets/404-mobile.png">
+    </details>
 <br>
 
 Overall, the accessibility, best practises and SEO results are great. 
 
 The orange performance numbers are mostly due to image-sizes even though I compressed them with TinyPNG. In future projects, I will look into other ways of compressing images to get a better performance. 
-
 
 ### Browser Compatibility
 
@@ -280,7 +282,7 @@ The orange performance numbers are mostly due to image-sizes even though I compr
 | Device | Home | Adoption | Contact | Success | Thank you | 404 | Notes |
 | -------- | ------- | -------- | ------- | -------- | ------- | -------- | -------- | 
 | Mobile (DevTools) | ![screenshot](readme-assets/mobile-home.png) | ![screenshot](readme-assets/mobile-adopt.png) | ![screenshot](readme-assets/mobile-contact.png) | ![screenshot](readme-assets/mobile-success.png) | ![screenshot](readme-assets/mobile-thankyou.png) | ![screenshot](readme-assets/mobile-404.png) | Work as expected | 
-| Iphone 16 Pro Max |![screenshot](readme-assets/iphone-home.png) | ![screenshot](readme-assets/iphone-adopt.png)| ![screenshot](readme-assets/iphone-contact.png) | ![screenshot](readme-assets/iphone-success.png) | ![screenshot](readme-assets/iphone-thankyou.png) | ![screenshot](readme-assets/iphone-404.png) | Work as expected | 
+| Iphone 16 Pro Max |![screenshot](readme-assets/iphone-home.PNG) | ![screenshot](readme-assets/iphone-adopt.PNG)| ![screenshot](readme-assets/iphone-contact.PNG) | ![screenshot](readme-assets/iphone-success.PNG) | ![screenshot](readme-assets/iphone-thankyou.PNG) | ![screenshot](readme-assets/iphone-404.PNG) | Work as expected | 
 | Tablet (DevTools) |![screenshot](readme-assets/tablet-home.png) | ![screenshot](readme-assets/tablet-adopt.png) | ![screenshot](readme-assets/tablet-contact.png) | ![screenshot](readme-assets/tablet-success.png) | ![screenshot](readme-assets/tablet-thankyou.png) | ![screenshot](readme-assets/tablet-404.png) | Work as expected | 
 | 13.6 inch MacBook Air M2  |![screenshot](readme-assets/chrome-home.png) | ![screenshot](readme-assets/chrome-adopt.png)| ![screenshot](readme-assets/chrome-contact.png) | ![screenshot](readme-assets/chrome-success.png) | ![screenshot](readme-assets/chrome-thankyou.png) | ![screenshot](readme-assets/chrome-404.png) | Work as expected | 
 | Laptop L (Devtools) | ![screenshot](readme-assets/laptop-l-home.png) | ![screenshot](readme-assets/laptop-l-adopt.png)| ![screenshot](readme-assets/laptop-l-contact.png) | ![screenshot](readme-assets/laptop-l-success.png) | ![screenshot](readme-assets/laptop-l-thankyou.png) | ![screenshot](readme-assets/laptop-l-404.png) | Work as expected | 
